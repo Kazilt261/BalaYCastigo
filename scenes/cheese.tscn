@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cb85iplslcuom"]
+
+[ext_resource type="Script" path="res://scenes/cheese.gd" id="1_yrfkd"]
+[ext_resource type="Texture2D" uid="uid://bna5hxymol7nw" path="res://assets/textures/Cyberpunk_protas/5 Bullets/3.png" id="2_e5gpb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d77xc"]
+size = Vector2(4, 4)
+
+[node name="Cheese" type="Area2D"]
+scale = Vector2(2, 2)
+collision_layer = 8
+collision_mask = 4
+script = ExtResource("1_yrfkd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.375, 0.375)
+shape = SubResource("RectangleShape2D_d77xc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_e5gpb")
+flip_h = true

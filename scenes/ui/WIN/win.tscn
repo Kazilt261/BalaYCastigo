@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://chlu2nne8uy4"]
+
+[ext_resource type="Script" path="res://scenes/ui/GAMEOVER/game_over.gd" id="1_tgnv4"]
+[ext_resource type="PackedScene" uid="uid://btarybkof8kvm" path="res://scenes/ui/main_menu.tscn" id="2_nox2l"]
+
+[node name="WIN" type="CanvasLayer"]
+script = ExtResource("1_tgnv4")
+mainMenu = ExtResource("2_nox2l")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(100, 0)
+offset_left = 78.0
+offset_top = 49.0
+offset_right = 178.0
+offset_bottom = 94.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="Rows" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="PanelContainer/MarginContainer/Rows"]
+layout_mode = 2
+text = "congratulations
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="PanelContainer/MarginContainer/Rows"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/Rows/CenterContainer"]
+layout_mode = 2
+
+[node name="Quit" type="Button" parent="PanelContainer/MarginContainer/Rows/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="PanelContainer/MarginContainer/Rows/CenterContainer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

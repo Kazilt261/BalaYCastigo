@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7kh87xc7fpi0"]
+
+[ext_resource type="Script" path="res://scenes/Bosses/boss_1_spawn.gd" id="1_6wfse"]
+[ext_resource type="PackedScene" uid="uid://c4k2i1mcgthfn" path="res://scenes/Bosses/boss_1.tscn" id="2_fsf5c"]
+
+[node name="Boss1Spawn" type="Node2D"]
+script = ExtResource("1_6wfse")
+boss_scene = ExtResource("2_fsf5c")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="spawn" type="Marker2D" parent="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 22.0
+one_shot = true
+autostart = true
+
+[node name="Pivot" type="Node2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="Pivot"]
+target_position = Vector2(0, 12)
+
+[connection signal="timeout" from="Timer" to="." method="spawn_boss"]

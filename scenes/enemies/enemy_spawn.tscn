@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://d36tkgw83qjl8"]
+
+[ext_resource type="Script" path="res://scenes/enemies/enemy_spawn.gd" id="1_jd4jg"]
+[ext_resource type="PackedScene" uid="uid://b36p70jt4g0il" path="res://scenes/enemies/enemy.tscn" id="2_5qlkf"]
+[ext_resource type="PackedScene" uid="uid://cxt0055cf4jhj" path="res://scenes/enemies/enemy_2.tscn" id="3_whe34"]
+
+[node name="EnemySpawn" type="Node2D"]
+position = Vector2(142, 87)
+script = ExtResource("1_jd4jg")
+enemy_scenes = Array[PackedScene]([ExtResource("3_whe34"), ExtResource("2_5qlkf")])
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="spawn" type="Marker2D" parent="Node2D"]
+
+[node name="TimerSpawn" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+autostart = true
+
+[node name="TimerErase" type="Timer" parent="."]
+wait_time = 20.0
+autostart = true
+
+[node name="Pivot" type="Node2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="Pivot"]
+target_position = Vector2(0, 11)
+
+[connection signal="timeout" from="TimerSpawn" to="." method="spawn_enemy"]
+[connection signal="timeout" from="TimerErase" to="." method="erase"]

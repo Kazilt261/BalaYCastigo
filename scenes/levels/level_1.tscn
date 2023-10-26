@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://08yek3qwd2de"]
+
+[ext_resource type="PackedScene" uid="uid://bgp70vmwf436p" path="res://scenes/bally.tscn" id="1_84alk"]
+[ext_resource type="PackedScene" uid="uid://d36tkgw83qjl8" path="res://scenes/enemies/enemy_spawn.tscn" id="2_lbond"]
+[ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="3_c73ym"]
+
+[node name="level_1" type="Node2D"]
+
+[node name="spawn" parent="." instance=ExtResource("2_lbond")]
+position = Vector2(241, 58)
+
+[node name="camara" parent="." instance=ExtResource("3_c73ym")]
+position = Vector2(128, 72)
+
+[node name="Bally" parent="." instance=ExtResource("1_84alk")]
+position = Vector2(154, 59)
