@@ -1,7 +1,12 @@
+Timer
+AnimationPlayer
+Sprite2D
+CollisionShape2D
+CharacterBody2D
+Node2D
 CanvasLayer
 MarginContainer
 RayCast2D
-Node2D
 PanelContainer
 Container
 TextureRect
@@ -10,9 +15,4 @@ VBoxContainer
 CenterContainer
 Label
 ProgressBar
-Timer
-CollisionShape2D
-Sprite2D
-AnimationPlayer
 Area2D
-CharacterBody2D

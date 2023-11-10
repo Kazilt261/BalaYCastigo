@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://d2mpsaisw518g"]
+
+[ext_resource type="Texture2D" uid="uid://c5spelc6dfsla" path="res://assets/textures/Robot_Boss/Left Arm Sprites.png" id="2_pbuet"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ob6uv"]
+
+[sub_resource type="Animation" id="Animation_yj04h"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_cmf2u"]
+resource_name = "run"
+length = 0.25
+loop_mode = 1
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oovwn"]
+_data = {
+"RESET": SubResource("Animation_yj04h"),
+"run": SubResource("Animation_cmf2u")
+}
+
+[node name="BrazoI" type="CharacterBody2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+scale = Vector2(-1, 1)
+
+[node name="LeftArmSprites" type="Sprite2D" parent="Node2D"]
+texture = ExtResource("2_pbuet")
+hframes = 10
+vframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_ob6uv")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_oovwn")
+}

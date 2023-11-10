@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://dv6e075vlbk1s"]
+
+[ext_resource type="Texture2D" uid="uid://bgrodrxag4dgh" path="res://assets/textures/Robot_Boss/Right Leg Sprites.png" id="5_3rvld"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ob6uv"]
+
+[sub_resource type="Animation" id="Animation_cmevr"]
+resource_name = "run"
+length = 0.25
+loop_mode = 1
+
+[sub_resource type="Animation" id="Animation_3165g"]
+length = 0.001
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5316y"]
+_data = {
+"RESET": SubResource("Animation_3165g"),
+"run": SubResource("Animation_cmevr")
+}
+
+[node name="PiernaL" type="CharacterBody2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+scale = Vector2(-1, 1)
+
+[node name="RightLegSprites" type="Sprite2D" parent="Node2D"]
+texture = ExtResource("5_3rvld")
+hframes = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_ob6uv")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_5316y")
+}

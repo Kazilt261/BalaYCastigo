@@ -1,4 +1,8 @@
-res://scenes/bally.tscn
-res://scenes/enemies/enemy.tscn
-res://scenes/enemies/enemy_2.tscn
-res://scenes/enemies/enemy_spawn.tscn
+res://scenes/Bosses/boss_final/brazo_robot.tscn
+res://scenes/Bosses/boss_final/brazo_robot_v2.tscn
+res://scenes/Bosses/boss_final/pecho_robot.tscn
+res://scenes/Bosses/boss_final/pierna_robot_v2.tscn
+res://scenes/Bosses/boss_final/pecho.tscn
+res://scenes/Bosses/boss_final/piernaI.tscn
+res://scenes/Bosses/boss_final/piernaD.tscn
+res://scenes/Bosses/boss_final/Dron.tscn

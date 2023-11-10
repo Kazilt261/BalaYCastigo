@@ -14,8 +14,6 @@ enemy_scenes = Array[PackedScene]([ExtResource("3_whe34"), ExtResource("2_5qlkf"
 [node name="spawn" type="Marker2D" parent="Node2D"]
 
 [node name="TimerSpawn" type="Timer" parent="."]
-wait_time = 0.1
-one_shot = true
 autostart = true
 
 [node name="TimerErase" type="Timer" parent="."]

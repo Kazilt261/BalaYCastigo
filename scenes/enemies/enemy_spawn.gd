@@ -23,7 +23,7 @@ func spawn_enemy():
 	var enemy = enemy_scene.instantiate()
 	get_parent().add_child(enemy)
 	enemy.global_position = spawn.global_position
-	timer_spawn.start(randf_range(1,1.5))
+	
 
 func erase():
 	queue_free()

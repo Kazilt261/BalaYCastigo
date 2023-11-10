@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d176nii3yf5wh"]
+
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/piernaI.gd" id="1_xcht3"]
+[ext_resource type="PackedScene" uid="uid://bk32qhxxx1sjr" path="res://scenes/Bosses/boss_final/pierna_robot_v2.tscn" id="2_jkdhk"]
+[ext_resource type="PackedScene" uid="uid://cdcff4riqxqve" path="res://scenes/Bosses/boss_final/Dron.tscn" id="3_sdiw2"]
+
+[node name="piernaI" type="Node2D"]
+script = ExtResource("1_xcht3")
+
+[node name="PiernaI" parent="." instance=ExtResource("2_jkdhk")]
+
+[node name="Dron" parent="." instance=ExtResource("3_sdiw2")]
+position = Vector2(0, -5)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
