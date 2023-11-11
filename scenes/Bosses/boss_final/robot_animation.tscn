@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://bwhib2vf258u3"]
+
+[ext_resource type="PackedScene" uid="uid://dk4ypsjv4iskc" path="res://scenes/Bosses/boss_final/pecho.tscn" id="1_prrcl"]
+[ext_resource type="PackedScene" uid="uid://d176nii3yf5wh" path="res://scenes/Bosses/boss_final/piernaI.tscn" id="2_kusef"]
+[ext_resource type="PackedScene" uid="uid://y6cctdnvdvak" path="res://scenes/Bosses/boss_final/piernaD.tscn" id="3_lqlgm"]
+[ext_resource type="Texture2D" uid="uid://cvtuu8qcaki3y" path="res://assets/textures/Robot_Boss/Military Incursion Bot Sprite Sheet.png" id="4_pc7a5"]
+[ext_resource type="PackedScene" uid="uid://da6h3xes8fpts" path="res://scenes/Bosses/boss_final/brazoi.tscn" id="5_oybox"]
+[ext_resource type="PackedScene" uid="uid://44eicmhtvo8x" path="res://scenes/Bosses/boss_final/brazod.tscn" id="6_lw7e3"]
+
+[node name="Robot_animation" type="Node2D"]
+
+[node name="MilitaryIncursionBotSpriteSheet" type="Sprite2D" parent="."]
+visible = false
+rotation = 3.14159
+scale = Vector2(1, -1)
+texture = ExtResource("4_pc7a5")
+hframes = 10
+vframes = 7
+frame = 12
+
+[node name="brazoI" parent="." instance=ExtResource("5_oybox")]
+position = Vector2(257, -152)
+
+[node name="pecho" parent="." instance=ExtResource("1_prrcl")]
+position = Vector2(279, -158)
+
+[node name="piernaI" parent="." instance=ExtResource("2_kusef")]
+position = Vector2(270, -144)
+
+[node name="piernaI2" parent="." instance=ExtResource("3_lqlgm")]
+position = Vector2(286, -144)
+
+[node name="brazoI2" parent="." instance=ExtResource("6_lw7e3")]
+position = Vector2(303, -153)

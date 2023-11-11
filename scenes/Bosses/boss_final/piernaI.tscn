@@ -13,7 +13,7 @@ script = ExtResource("1_xcht3")
 position = Vector2(0, -5)
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
+wait_time = 5.0
 one_shot = true
 autostart = true
 

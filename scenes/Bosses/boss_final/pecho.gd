@@ -6,10 +6,9 @@ extends Node2D
 
 func _ready():
 	var tween = create_tween()
-	tween.tween_property(self, "position", Vector2(40, 30), 1)
-	tween.tween_property(dron, "position", Vector2(10, -400), 1)
-	
-	tween.tween_property(self, "position", Vector2(40, 70), 0.5)
+	tween.tween_property(self, "position", Vector2(2, -18), 3)
+	tween.tween_property(dron, "position", Vector2(10, -100), 1)
+
 	
 
 
@@ -20,3 +19,4 @@ func _process(delta):
 
 func _on_timer_timeout():
 	dron.queue_free()
+	#pecho.queue_free()

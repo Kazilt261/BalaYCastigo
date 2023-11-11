@@ -4,7 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://dv6e075vlbk1s" path="res://scenes/Bosses/boss_final/pierna_robot.tscn" id="2_php7x"]
 [ext_resource type="PackedScene" uid="uid://cdcff4riqxqve" path="res://scenes/Bosses/boss_final/Dron.tscn" id="3_lilqo"]
 
-[node name="piernaI" type="Node2D"]
+[node name="piernad" type="Node2D"]
+position = Vector2(74, 40)
 script = ExtResource("1_10v7h")
 
 [node name="PiernaL" parent="." instance=ExtResource("2_php7x")]
@@ -13,7 +14,7 @@ script = ExtResource("1_10v7h")
 position = Vector2(0, -5)
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
+wait_time = 5.0
 one_shot = true
 autostart = true
 

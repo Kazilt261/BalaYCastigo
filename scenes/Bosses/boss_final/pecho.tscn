@@ -8,13 +8,12 @@
 script = ExtResource("1_4k4da")
 
 [node name="Pecho" parent="." instance=ExtResource("1_yfrsb")]
-position = Vector2(75, 66)
 
 [node name="Dron" parent="." instance=ExtResource("3_nah5d")]
-position = Vector2(42, 12)
+position = Vector2(2, -21)
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
+wait_time = 5.0
 one_shot = true
 autostart = true
 

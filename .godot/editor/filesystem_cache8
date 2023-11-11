@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699572350
+::res://::1699625249
 export_presets.cfg::TextFile::-1::1699281937::0::1::::<><>::
 icon.svg::CompressedTexture2D::8938766943038835219::1699279819::1699280054::1::::<><>::
 ::res://assets/::1699279815
@@ -807,9 +807,9 @@ theme.tres::Theme::3043238223711983482::1699279819::0::1::::<><>::uid://bpxfl8g1
 ::res://scenes/::1699365574
 Area2D.gd::GDScript::-1::1699279819::0::1::::<>Area2D<>::
 bally.gd::GDScript::-1::1699279819::0::1::::<>CharacterBody2D<>::
-bally.tscn::PackedScene::2840508122983781525::1699365574::0::1::::<><>::res://scenes/bally.gd<>uid://cb85iplslcuom::::res://scenes/cheese.tscn<>uid://corj5dtbn0c5o::::res://assets/textures/Cyberpunk_protas/3 Hands/2 Punk/3.png<>uid://bfboxfqnwlapo::::res://scenes/ui/GAMEOVER/game_over.tscn<>uid://bjrxagomdq4u8::::res://assets/textures/Cyberpunk_protas/2 Guns/1_1.png<>uid://l0pjtvpydu10::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Idle1.png<>uid://bfax0quivj8v::::res://scenes/ui/pausa.tscn<>uid://d2rqjwudqnu1d::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Run1.png<>uid://stvn8nkebhjb::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_death.png<>uid://dwdx0orbdm6i3::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_hurt.png
+bally.tscn::PackedScene::2840508122983781525::1699365574::0::1::::<><>::res://scenes/bally.gd<>uid://cb85iplslcuom
 camara.gd::GDScript::-1::1699281837::0::1::::<>Camera2D<>::
-camara.tscn::PackedScene::4623233486705723843::1699365574::0::1::::<><>::res://scenes/camara.gd<>res://scenes/Area2D.gd<>uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://c7kh87xc7fpi0::::res://scenes/Bosses/boss_1_spawn.tscn
+camara.tscn::PackedScene::4623233486705723843::1699365574::0::1::::<><>::res://scenes/camara.gd<>res://scenes/Area2D.gd<>uid://brew11y4w8imh
 cheese.gd::GDScript::-1::1699279819::0::1::::<>Area2D<>::
 cheese.tscn::PackedScene::4912991278718180472::1699279819::0::1::::<><>::res://scenes/cheese.gd<>uid://bna5hxymol7nw
 floor.gd::GDScript::-1::1699279819::0::1::::<>StaticBody2D<>::
@@ -819,34 +819,38 @@ level_manager.tscn::PackedScene::8228786487189423886::1699279819::0::1::::<><>::
 main.tscn::PackedScene::2633391073793514039::1699279819::0::1::::<><>::uid://brew11y4w8imh
 ::res://scenes/Bosses/::1699545380
 boss_1.gd::GDScript::-1::1699545380::0::1::::<>CharacterBody2D<>::
-boss_1.tscn::PackedScene::6830616639830073355::1699365574::0::1::::<><>::res://scenes/Bosses/boss_1.gd<>uid://chlu2nne8uy4::::res://scenes/ui/WIN/win.tscn<>uid://blny4jy1v75wh::::res://assets/textures/Bosses1/1/Walk.png<>uid://b6h8v6agpy1o8::::res://assets/textures/Efectos/1 Smoke/3.png<>uid://bdgx4dgb81og2::::res://assets/textures/Bosses1/1/Out.png<>uid://chwjej2hm4jst::::res://assets/textures/Bosses1/1/Idle3.png<>uid://dp3b8asjyvdgw::::res://assets/textures/Bosses1/1/Death2.png<>uid://bdtxciu1oi2e::::res://assets/textures/Bosses1/1/Hurt.png<>uid://djouf023fbc73::::res://assets/textures/Bosses1/1/Hurt2.png<>uid://ulcbudpbek1o::::res://assets/textures/Bosses1/1/Walk2.png<>uid://k5gocj1lsyux::::res://assets/textures/Bosses1/1/Attack.png
+boss_1.tscn::PackedScene::6830616639830073355::1699365574::0::1::::<><>::res://scenes/Bosses/boss_1.gd<>uid://chlu2nne8uy4
 boss_1_spawn.gd::GDScript::-1::1699279819::0::1::::<>Node2D<>::
 boss_1_spawn.tscn::PackedScene::7040013807903616909::1699279819::0::1::::<><>::res://scenes/Bosses/boss_1_spawn.gd<>uid://c4k2i1mcgthfn
-::res://scenes/Bosses/boss_final/::1699572142
-brazo_robot.tscn::PackedScene::3695885347848318137::1699572141::0::1::::<><>::uid://suvesi8tmgck::::res://assets/textures/Robot_Boss/Right Arm Sprites.png
-brazo_robot_v2.tscn::PackedScene::9080076274743562592::1699572141::0::1::::<><>::uid://c5spelc6dfsla::::res://assets/textures/Robot_Boss/Left Arm Sprites.png
+::res://scenes/Bosses/boss_final/::1699626997
+brazo_robot.tscn::PackedScene::3695885347848318137::1699626996::0::1::::<><>::uid://suvesi8tmgck::::res://assets/textures/Robot_Boss/Right Arm Sprites.png
+brazo_robot_v2.tscn::PackedScene::9080076274743562592::1699626996::0::1::::<><>::uid://c5spelc6dfsla::::res://assets/textures/Robot_Boss/Left Arm Sprites.png
 dron.gd::GDScript::-1::1699568775::0::1::::<>CharacterBody2D<>::
-Dron.tscn::PackedScene::4987850717566392838::1699571875::0::1::::<><>::res://scenes/Bosses/boss_final/dron.gd<>uid://2ylttaocictm::::res://assets/textures/Drones/1 Drones/4/Idle.png
-pecho.gd::GDScript::-1::1699571288::0::1::::<>Node2D<>::
-pecho.tscn::PackedScene::7922502397379104654::1699572141::0::1::::<><>::res://scenes/Bosses/boss_final/pecho.gd<>uid://bepbg052nw0lk::::res://scenes/Bosses/boss_final/pecho_robot.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/dron.tscn
-pecho_robot.tscn::PackedScene::2698214516985231940::1699572141::0::1::::<><>::uid://qivc2p1gubng::::res://assets/textures/Robot_Boss/Chest Sprites.png
-piernaD.gd::GDScript::-1::1699572133::0::1::::<>Node2D<>::
-piernaD.tscn::PackedScene::1748653966458904742::1699572142::0::1::::<><>::res://scenes/Bosses/boss_final/piernaD.gd<>uid://dv6e075vlbk1s::::res://scenes/Bosses/boss_final/pierna_robot.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
-piernaI.gd::GDScript::-1::1699571875::0::1::::<>Node2D<>::
-piernaI.tscn::PackedScene::9052137949744314387::1699572141::0::1::::<><>::res://scenes/Bosses/boss_final/piernaI.gd<>uid://bk32qhxxx1sjr::::res://scenes/Bosses/boss_final/pierna_robot_v2.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
-pierna_robot.tscn::PackedScene::8697512718732756998::1699569844::0::1::::<><>::uid://bgrodrxag4dgh::::res://assets/textures/Robot_Boss/Right Leg Sprites.png
-pierna_robot_v2.tscn::PackedScene::3147780032965017579::1699572141::0::1::::<><>::uid://dun5a31mpw3xo::::res://assets/textures/Robot_Boss/Left Leg Sprites.png
+Dron.tscn::PackedScene::4987850717566392838::1699625790::0::1::::<><>::res://scenes/Bosses/boss_final/dron.gd<>uid://2ylttaocictm::::res://assets/textures/Drones/1 Drones/4/Idle.png
+pecho.gd::GDScript::-1::1699626925::0::1::::<>Node2D<>::
+pecho.tscn::PackedScene::7922502397379104654::1699626996::0::1::::<><>::res://scenes/Bosses/boss_final/pecho.gd<>uid://bepbg052nw0lk::::res://scenes/Bosses/boss_final/pecho_robot.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
+pecho_robot.tscn::PackedScene::2698214516985231940::1699626621::0::1::::<><>::uid://qivc2p1gubng::::res://assets/textures/Robot_Boss/Chest Sprites.png
+piernaD.gd::GDScript::-1::1699626925::0::1::::<>Node2D<>::
+piernaD.tscn::PackedScene::1748653966458904742::1699626996::0::1::::<><>::res://scenes/Bosses/boss_final/piernaD.gd<>uid://dv6e075vlbk1s::::res://scenes/Bosses/boss_final/pierna_robot.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
+piernaI.gd::GDScript::-1::1699626925::0::1::::<>Node2D<>::
+piernaI.tscn::PackedScene::9052137949744314387::1699626996::0::1::::<><>::res://scenes/Bosses/boss_final/piernaI.gd<>uid://bk32qhxxx1sjr::::res://scenes/Bosses/boss_final/pierna_robot_v2.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
+pierna_robot.tscn::PackedScene::8697512718732756998::1699569844::0::1::::<><>::uid://bgrodrxag4dgh
+pierna_robot_v2.tscn::PackedScene::3147780032965017579::1699626621::0::1::::<><>::uid://dun5a31mpw3xo::::res://assets/textures/Robot_Boss/Left Leg Sprites.png
+brazoi.tscn::PackedScene::7223733997712280780::1699626997::0::1::::<><>::res://scenes/Bosses/boss_final/brazoi.gd<>uid://d2mpsaisw518g::::res://scenes/Bosses/boss_final/brazo_robot_v2.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
+brazoi.gd::GDScript::-1::1699626996::0::1::::<>Node2D<>::
+brazod.tscn::PackedScene::2095600698621612009::1699627032::0::1::::<><>::res://scenes/Bosses/boss_final/brazoi.gd<>uid://d2mpsaisw518g::::res://scenes/Bosses/boss_final/brazo_robot_v2.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
+robot_animation.tscn::PackedScene::3945514860580091336::1699626997::0::1::::<><>::uid://dk4ypsjv4iskc::::res://scenes/Bosses/boss_final/pecho.tscn<>uid://d176nii3yf5wh::::res://scenes/Bosses/boss_final/piernaI.tscn<>uid://y6cctdnvdvak::::res://scenes/Bosses/boss_final/piernaD.tscn<>uid://cvtuu8qcaki3y::::res://assets/textures/Robot_Boss/Military Incursion Bot Sprite Sheet.png<>uid://da6h3xes8fpts::::res://scenes/Bosses/boss_final/brazoi.tscn
 test.gd::GDScript::-1::1699569827::0::1::::<>Node2D<>::
 ::res://scenes/enemies/::1699365574
 enemy.gd::GDScript::-1::1699279819::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::4416673244119599647::1699365574::0::1::::<><>::res://scenes/enemies/enemy.gd<>uid://dt5wooxye6otl::::res://assets/textures/Cyberpunk_villians/1/Walk.png<>uid://bsipe2prdphum::::res://assets/textures/Cyberpunk_villians/1/Attack.png<>uid://c0axxpsfvhty8::::res://assets/textures/Cyberpunk_villians/1/Death.png<>uid://b25uyjedsfsir::::res://assets/textures/Cyberpunk_villians/1/Hurt.png
+enemy.tscn::PackedScene::4416673244119599647::1699365574::0::1::::<><>::res://scenes/enemies/enemy.gd<>uid://dt5wooxye6otl
 enemy_2.gd::GDScript::-1::1699279819::0::1::::<>CharacterBody2D<>::
-enemy_2.tscn::PackedScene::6427972140198206483::1699365574::0::1::::<><>::res://scenes/enemies/enemy_2.gd<>uid://b3umyg2wsyb2b::::res://assets/textures/Cyberpunk_villians/3/Walk.png<>uid://bdyq664la3ttt::::res://assets/textures/Cyberpunk_villians/3/Death.png<>uid://cdonxxn0i68lp::::res://assets/textures/Cyberpunk_villians/3/Attack.png<>uid://djfhipppccmq8::::res://assets/textures/Cyberpunk_villians/3/Hurt2.png
+enemy_2.tscn::PackedScene::6427972140198206483::1699365574::0::1::::<><>::res://scenes/enemies/enemy_2.gd<>uid://b3umyg2wsyb2b
 enemy_spawn.gd::GDScript::-1::1699280263::0::1::::<>Node2D<>::
-enemy_spawn.tscn::PackedScene::9189717214784898843::1699365574::0::1::::<><>::res://scenes/enemies/enemy_spawn.gd<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://cxt0055cf4jhj::::res://scenes/enemies/enemy_2.tscn
+enemy_spawn.tscn::PackedScene::9189717214784898843::1699365574::0::1::::<><>::res://scenes/enemies/enemy_spawn.gd<>uid://b36p70jt4g0il
 ::res://scenes/levels/::1699570605
 level_1.tscn::PackedScene::1824310477081337422::1699279819::0::1::::<><>::uid://bgp70vmwf436p
-level_2.tscn::PackedScene::8902854292743731971::1699570605::0::1::::<><>::uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://ps1pt3y3amia::::res://scenes/Bosses/boss_final/pecho.tscn
+level_2.tscn::PackedScene::8902854292743731971::1699570605::0::1::::<><>::uid://b64r8k7nyaqc6
 level_3.tscn::PackedScene::3210713602883652657::1699279819::0::1::::<><>::uid://bgp70vmwf436p
 ::res://scenes/ui/::1699279819
 main_menu.gd::GDScript::-1::1699279819::0::1::::<>MarginContainer<>::
