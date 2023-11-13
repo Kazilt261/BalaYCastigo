@@ -1,25 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://otmebprgd3uu"]
+[gd_scene load_steps=2 format=3 uid="uid://otmebprgd3uu"]
 
-[ext_resource type="Script" path="res://scenes/Bosses/boss_1_spawn.gd" id="1_vud6q"]
-[ext_resource type="PackedScene" uid="uid://bwhib2vf258u3" path="res://scenes/Bosses/boss_final/robot_animation.tscn" id="2_3hn3g"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/boss_final_spawn.gd" id="1_a1l1r"]
 
 [node name="BossFinalSpawn" type="Node2D"]
-script = ExtResource("1_vud6q")
-boss_scene = ExtResource("2_3hn3g")
+script = ExtResource("1_a1l1r")
 
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="spawn" type="Marker2D" parent="Node2D"]
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 22.0
+wait_time = 5.0
 one_shot = true
 autostart = true
-
-[node name="TimerErase" type="Timer" parent="."]
-wait_time = 20.0
-one_shot = true
-autostart = true
-
-[connection signal="timeout" from="Timer" to="." method="spawn_boss"]
-[connection signal="timeout" from="TimerErase" to="." method="erase"]

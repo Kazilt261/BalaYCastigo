@@ -4,10 +4,13 @@ extends Node2D
 @onready var dron = $Dron
 @onready var timer = $Timer
 
+signal brazo_complete
+
 func _ready():
 	var tween = create_tween()
 	tween.tween_property(self, "position", Vector2(-20, -12), 4)
 	tween.tween_property(dron, "position", Vector2(10, -100), 1)
+	tween.finished.connect(func(): brazo_complete.emit())
 	
 func _on_timer_timeout():
 	dron.queue_free()
