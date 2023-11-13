@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dy3uyefli1flj"]
+[gd_scene load_steps=6 format=3 uid="uid://dy3uyefli1flj"]
 
 [ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="1_xjbts"]
 [ext_resource type="PackedScene" uid="uid://bgp70vmwf436p" path="res://scenes/bally.tscn" id="3_itcjw"]
 [ext_resource type="PackedScene" uid="uid://b36p70jt4g0il" path="res://scenes/enemies/enemy.tscn" id="4_5nk8j"]
-[ext_resource type="PackedScene" uid="uid://bwhib2vf258u3" path="res://scenes/Bosses/boss_final/robot_animation.tscn" id="4_twncm"]
+[ext_resource type="PackedScene" uid="uid://otmebprgd3uu" path="res://scenes/Bosses/boss_final/boss_final_spawn.tscn" id="5_edthe"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/boss_final_spawn.gd" id="6_dggdt"]
 
 [node name="level_2" type="Node2D"]
 
@@ -16,5 +17,7 @@ position = Vector2(38, 78)
 [node name="enemy" parent="." instance=ExtResource("4_5nk8j")]
 position = Vector2(192, 80)
 
-[node name="Robot_animation" parent="." instance=ExtResource("4_twncm")]
-position = Vector2(138, 75)
+[node name="Boss1Spawn" parent="." instance=ExtResource("5_edthe")]
+position = Vector2(224, 72)
+script = ExtResource("6_dggdt")
+boss_scene = null

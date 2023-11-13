@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://44eicmhtvo8x" path="res://scenes/Bosses/boss_final/brazod.tscn" id="6_lw7e3"]
 
 [node name="Robot_animation" type="Node2D"]
+scale = Vector2(0.75, 0.75)
 
 [node name="MilitaryIncursionBotSpriteSheet" type="Sprite2D" parent="."]
 visible = false

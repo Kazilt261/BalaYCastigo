@@ -10,9 +10,9 @@ func _on_CameraArea_body_exited(body: Node2D):
 			body.queue_free()
 
 func free_enemies():
+	camara.speed = 0
 	for body in area_2d.get_overlapping_bodies():
 		if body.is_in_group("enemies"):
-			camara.speed = 0
 			body.take_damage(body.health)
 		
 	
