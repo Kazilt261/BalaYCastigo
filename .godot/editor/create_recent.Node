@@ -1,5 +1,6 @@
-ProgressBar
 MarginContainer
+ProgressBar
+RayCast2D
 CanvasLayer
 CollisionShape2D
 Area2D
@@ -8,7 +9,6 @@ Timer
 AnimationPlayer
 CharacterBody2D
 Sprite2D
-RayCast2D
 PanelContainer
 Container
 TextureRect

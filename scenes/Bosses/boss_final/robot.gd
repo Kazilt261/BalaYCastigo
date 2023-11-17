@@ -1,19 +1,21 @@
 extends CharacterBody2D
 
-var speedx = 60
+var speedx = 0
 var speedy = 60
 var acceleration = 10000
 
 @onready var animation_player = $AnimationPlayer
-@onready var node_2d = $Pivot/Node2D
 @onready var pivot = $Pivot
 @onready var timer = $Timer
 @onready var attack = $Pivot/HitBox/attack
-@onready var collision_shape_2d_2 = $CollisionShape2D2
+@onready var collision_shape_2d_2 = $CollisionShape2D
 @onready var hit_box = $Pivot/HitBox
 @onready var boss_bar = $CanvasLayer/MarginContainer/BossBar
+@onready var abajo = $Pivot/Abajo
+@onready var node_2d = $Pivot/Node2D
 
 @export var win_scene: PackedScene
+
 var is_attacking = false
 var is_death = false
 var is_on = false
@@ -34,14 +36,22 @@ func _ready()-> void:
 	timer.timeout.connect(attacking)
 	
 func _physics_process(delta):
+	if health == 0:
+		return
 	if is_attacking or is_halflife:
 		pass
 	else:
 		if is_on:
-			velocity.x = move_toward(velocity.x, -pivot.scale.x * speedx/2, acceleration * delta)
-			velocity.y = move_toward(velocity.y, pivot.scale.y * speedy/5, acceleration * delta)
-			animation_player.play("run")
-			move_and_slide()
+			if abajo.is_colliding():
+				pivot.scale.y *= -1
+				abajo.scale.y *= 0.5
+				node_2d.scale.y *= -1
+				hit_box.scale.y *= -1
+			else:
+				velocity.x = move_toward(velocity.x, -pivot.scale.x * speedx/2, acceleration * delta)
+				velocity.y = move_toward(velocity.y, pivot.scale.y * speedy/5, acceleration * delta)
+				animation_player.play("run")
+				move_and_slide()
 		else:
 			animation_player.play("encenderse")
 
@@ -57,6 +67,7 @@ func take_damage(damage):
 func attacking():
 	if health != 0:
 		is_attacking = true
+		var tween = create_tween()
 		animation_player.play("attack")
 
 func _on_animation_player_animation_finished(anim_name):

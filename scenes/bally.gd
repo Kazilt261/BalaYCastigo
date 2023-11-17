@@ -12,12 +12,18 @@ var gravity = 400
 @onready var timer = $Timer
 @export var cheese_scene: PackedScene
 @onready var health_bar = $CanvasLayer/GUI/HealthBar
+@onready var damage_bar = $CanvasLayer/MarginContainer/DamageBar
 
 @export var gameOver_scene: PackedScene
 
 var is_hurt = false
 var count = 0
-var damage = 50
+var max_damage = 50
+var damage = 50:
+	set(value):
+		damage = clamp(value, 0, max_damage)
+		if(damage_bar):
+			damage_bar.value = damage
 var is_alive = true
 var max_health = 100
 var health = 100:
@@ -82,10 +88,11 @@ func fire():
 	cheese.scale.x = pivot.scale.x
 
 func on_enemy_kill():
-	if damage != 1:
-		damage /= 2
-	else:
+	if damage == 10:
 		damage = 1
+		damage_bar.value = 0
+	elif damage != 1:
+		damage -= 10
 
 	
 func sufrir_daño(daño):

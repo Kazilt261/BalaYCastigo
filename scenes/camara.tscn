@@ -23,7 +23,8 @@ wait_time = 5.0
 autostart = true
 
 [node name="Floor" parent="." instance=ExtResource("2_p81py")]
-position = Vector2(-7, -136)
+visible = false
+position = Vector2(-8, -108)
 scale = Vector2(4, 1)
 
 [node name="Floor2" parent="." instance=ExtResource("2_p81py")]

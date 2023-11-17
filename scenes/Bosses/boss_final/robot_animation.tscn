@@ -14,11 +14,11 @@ script = ExtResource("1_ltsqt")
 [node name="brazoI" parent="." instance=ExtResource("5_oybox")]
 position = Vector2(257, -152)
 
-[node name="pecho" parent="." instance=ExtResource("1_prrcl")]
-position = Vector2(279, -158)
-
 [node name="piernaI" parent="." instance=ExtResource("2_kusef")]
 position = Vector2(270, -144)
+
+[node name="pecho" parent="." instance=ExtResource("1_prrcl")]
+position = Vector2(279, -158)
 
 [node name="piernaI2" parent="." instance=ExtResource("3_lqlgm")]
 position = Vector2(286, -144)
