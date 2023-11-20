@@ -3,12 +3,6 @@ res://scenes/levels/level_1.tscn
 res://scenes/Bosses/boss_final/robot.tscn
 res://scenes/Bosses/boss_1.tscn
 res://scenes/camara.tscn
-res://scenes/Bosses/boss_final/robot_animation.tscn
-res://scenes/Bosses/boss_final/boss_final_spawn.gd
-res://scenes/Bosses/boss_final/robot.gd
-res://scenes/levels/level_2.gd
-res://scenes/Bosses/boss_final/robot_animation.gd
 res://scenes/Bosses/boss_final/boss_final_spawn.tscn
-res://scenes/Bosses/boss_final/boss_final_spawn2.gd
 res://scenes/bally.tscn
-res://scenes/bally.gd
+res://scenes/Bosses/boss_final/robot.gd

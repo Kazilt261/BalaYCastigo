@@ -26,6 +26,9 @@ var health = 100:
 		health = clamp(value, 0, max_health)
 		if(boss_bar):
 			boss_bar.value = health
+		if health == max_health/2:
+			Debug.dprint("B")
+			animation_player.play("reduced_hp")
 		if health == 0:
 			Debug.dprint("A")
 			animation_player.play("death")
