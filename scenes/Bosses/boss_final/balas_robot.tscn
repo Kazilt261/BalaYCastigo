@@ -1,0 +1,77 @@
+[gd_scene load_steps=9 format=3 uid="uid://b27flctyaa58s"]
+
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala1.gd" id="1_8r1ti"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/balas_robot.gd" id="1_ipd3i"]
+[ext_resource type="Texture2D" uid="uid://l8d1rj5cdwec" path="res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/9.png" id="2_5q2hq"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala2.gd" id="3_yvqvl"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala3.gd" id="4_7be2s"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala4.gd" id="5_1u3dw"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala5.gd" id="6_1xoap"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_el548"]
+size = Vector2(15, 15)
+
+[node name="Balas_robot" type="Node2D"]
+position = Vector2(131, 46)
+scale = Vector2(0.4, 0.4)
+script = ExtResource("1_ipd3i")
+
+[node name="Bala1" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("1_8r1ti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala1"]
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala1"]
+scale = Vector2(3, 3)
+texture = ExtResource("2_5q2hq")
+
+[node name="Bala2" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("3_yvqvl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala2"]
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala2"]
+scale = Vector2(3, 3)
+texture = ExtResource("2_5q2hq")
+
+[node name="Bala3" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("4_7be2s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala3"]
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala3"]
+scale = Vector2(3, 3)
+texture = ExtResource("2_5q2hq")
+
+[node name="Bala4" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("5_1u3dw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala4"]
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala4"]
+scale = Vector2(3, 3)
+texture = ExtResource("2_5q2hq")
+
+[node name="Bala5" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("6_1xoap")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala5"]
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala5"]
+scale = Vector2(3, 3)
+texture = ExtResource("2_5q2hq")

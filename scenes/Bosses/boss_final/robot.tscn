@@ -1,6 +1,7 @@
-[gd_scene load_steps=21 format=3 uid="uid://cr08smlfm3roo"]
+[gd_scene load_steps=22 format=3 uid="uid://cr08smlfm3roo"]
 
 [ext_resource type="Script" path="res://scenes/Bosses/boss_final/robot.gd" id="1_ndyvt"]
+[ext_resource type="PackedScene" uid="uid://b27flctyaa58s" path="res://scenes/Bosses/boss_final/balas_robot.tscn" id="2_1aedc"]
 [ext_resource type="Texture2D" uid="uid://c5spelc6dfsla" path="res://assets/textures/Robot_Boss/Left Arm Sprites.png" id="2_8f882"]
 [ext_resource type="PackedScene" uid="uid://chlu2nne8uy4" path="res://scenes/ui/WIN/win.tscn" id="2_aojhy"]
 [ext_resource type="Texture2D" uid="uid://qivc2p1gubng" path="res://assets/textures/Robot_Boss/Chest Sprites.png" id="3_fsvgm"]
@@ -151,6 +152,7 @@ tracks/10/keys = {
 
 [sub_resource type="Animation" id="Animation_fkpar"]
 resource_name = "attack"
+length = 1.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -158,10 +160,10 @@ tracks/0/path = NodePath("Pivot/Node2D/Robot Completo:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [20, 21, 22, 23, 24, 25, 26]
+"values": [20, 21, 22, 23, 24, 25, 26, 27]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -595,10 +597,14 @@ _data = {
 size = Vector2(52, 48)
 
 [node name="Robot" type="CharacterBody2D"]
+position = Vector2(97, 36)
 collision_layer = 4
 collision_mask = 8
+motion_mode = 1
 script = ExtResource("1_ndyvt")
+bala = ExtResource("2_1aedc")
 win_scene = ExtResource("2_aojhy")
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -613,6 +619,12 @@ libraries = {
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 4.0
+one_shot = true
+autostart = true
+
+[node name="Timer2" type="Timer" parent="."]
+wait_time = 4.25
+one_shot = true
 autostart = true
 
 [node name="Pivot" type="Node2D" parent="."]
@@ -626,8 +638,9 @@ collision_mask = 10
 position = Vector2(0, 11)
 shape = SubResource("RectangleShape2D_k3hjr")
 
-[node name="Abajo" type="RayCast2D" parent="Pivot"]
-target_position = Vector2(0, 44)
+[node name="Arriba" type="RayCast2D" parent="Pivot"]
+visible = false
+target_position = Vector2(0, -20)
 
 [node name="Node2D" type="Node2D" parent="Pivot"]
 rotation = 3.14159
@@ -685,6 +698,13 @@ rotation = 3.14159
 scale = Vector2(-1, 1)
 texture = ExtResource("9_qgwka")
 vframes = 13
+
+[node name="Spawn" type="Marker2D" parent="Pivot/Node2D"]
+position = Vector2(6.66666, -1.71661e-05)
+
+[node name="Abajo" type="RayCast2D" parent="Pivot"]
+position = Vector2(0, 10)
+target_position = Vector2(0, 33)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

@@ -8,7 +8,7 @@ var gravity = 400
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var playback = animation_tree.get("parameters/playback")
 @onready var pivot: Node2D = $Pivot
-@onready var cheese_spawn: Marker2D = $Pivot/CheeseSpawn
+@onready var cheese_spawn: Marker2D = $Pivot/SpawnBalas
 @onready var timer = $Timer
 @export var cheese_scene: PackedScene
 @onready var health_bar = $CanvasLayer/GUI/HealthBar
@@ -19,7 +19,7 @@ var gravity = 400
 var is_hurt = false
 var count = 0
 var max_damage = 50
-var damage = 50:
+var damage = 2:
 	set(value):
 		damage = clamp(value, 0, max_damage)
 		if(damage_bar):
