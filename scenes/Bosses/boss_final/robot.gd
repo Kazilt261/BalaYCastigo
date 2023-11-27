@@ -31,11 +31,8 @@ var health = 100:
 			boss_bar.value = health
 		if health <= max_health/2 and not is_halflife:
 			is_halflife = true
-			Debug.dprint("B")
-			
 			animation_player.play("reduced_hp")
 		if health == 0:
-			Debug.dprint("A")
 			animation_player.play("death")
 				
 func _ready()-> void:

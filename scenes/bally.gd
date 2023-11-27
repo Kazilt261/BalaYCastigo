@@ -19,7 +19,7 @@ var gravity = 400
 var is_hurt = false
 var count = 0
 var max_damage = 50
-var damage = 2:
+var damage = 50:
 	set(value):
 		damage = clamp(value, 0, max_damage)
 		if(damage_bar):
