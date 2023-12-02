@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d73paho5h7do"]
+
+[ext_resource type="Script" path="res://Bala.gd" id="1_vn7tu"]
+[ext_resource type="Texture2D" uid="uid://j5p6bj1mm061" path="res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/4_1.png" id="2_gv1m0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xxs75"]
+size = Vector2(15, 15)
+
+[node name="Bala" type="Area2D"]
+scale = Vector2(0.2, 0.2)
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("1_vn7tu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xxs75")
+
+[node name="9" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("2_gv1m0")

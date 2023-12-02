@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bcpmuf0cbp0co" path="res://assets/textures/Sidescroller Shooter - Central City/Assets/Props-01.png" id="4_jjyyf"]
 [ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="5_d42lb"]
 [ext_resource type="Script" path="res://scenes/camara.gd" id="6_pjlbx"]
-[ext_resource type="PackedScene" uid="uid://d36tkgw83qjl8" path="res://scenes/enemy_spawn.tscn" id="7_sxc62"]
+[ext_resource type="PackedScene" uid="uid://d36tkgw83qjl8" path="res://scenes/enemies/enemy_spawn.tscn" id="7_sxc62"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g60p3"]
 texture = ExtResource("4_jjyyf")

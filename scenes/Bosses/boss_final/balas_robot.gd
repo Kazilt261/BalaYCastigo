@@ -1,7 +1,8 @@
 extends Node2D
 
 var damage = 45
-# Called when the node enters the scene tree for the first time.
+var speed = randf_range(100,200)
+
 func _ready():
 	pass # Replace with function body.
 

@@ -1,31 +1,35 @@
-[gd_scene load_steps=9 format=3 uid="uid://dy3uyefli1flj"]
+[gd_scene load_steps=10 format=3 uid="uid://dy3uyefli1flj"]
 
-[ext_resource type="Script" path="res://scenes/levels/level_2.gd" id="1_7wthx"]
-[ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="1_xjbts"]
-[ext_resource type="PackedScene" uid="uid://bgp70vmwf436p" path="res://scenes/bally.tscn" id="3_itcjw"]
-[ext_resource type="PackedScene" uid="uid://b36p70jt4g0il" path="res://scenes/enemies/enemy.tscn" id="4_5nk8j"]
-[ext_resource type="PackedScene" uid="uid://otmebprgd3uu" path="res://scenes/Bosses/boss_final/boss_final_spawn.tscn" id="5_edthe"]
-[ext_resource type="PackedScene" uid="uid://bwhib2vf258u3" path="res://scenes/Bosses/boss_final/robot_animation.tscn" id="5_iku36"]
-[ext_resource type="Script" path="res://scenes/Bosses/boss_final/boss_final_spawn2.gd" id="6_2o04o"]
-[ext_resource type="PackedScene" uid="uid://cr08smlfm3roo" path="res://scenes/Bosses/boss_final/robot.tscn" id="7_4m762"]
+[ext_resource type="Script" path="res://scenes/levels/level_2.gd" id="1_17jdf"]
+[ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="2_ae7q7"]
+[ext_resource type="PackedScene" uid="uid://bgp70vmwf436p" path="res://scenes/bally.tscn" id="3_tmscp"]
+[ext_resource type="PackedScene" uid="uid://b36p70jt4g0il" path="res://scenes/enemies/enemy.tscn" id="4_30gwp"]
+[ext_resource type="PackedScene" uid="uid://otmebprgd3uu" path="res://scenes/Bosses/boss_final/boss_final_spawn.tscn" id="5_erorx"]
+[ext_resource type="PackedScene" uid="uid://bwhib2vf258u3" path="res://scenes/Bosses/boss_final/robot_animation.tscn" id="6_a1tyb"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/boss_final_spawn2.gd" id="7_pc41t"]
+[ext_resource type="PackedScene" uid="uid://cr08smlfm3roo" path="res://scenes/Bosses/boss_final/robot.tscn" id="8_8lxkm"]
+[ext_resource type="PackedScene" uid="uid://blfr51nnysw1e" path="res://scenes/enemies/enemy_range.tscn" id="9_os88f"]
 
 [node name="level_2" type="Node2D"]
-script = ExtResource("1_7wthx")
+script = ExtResource("1_17jdf")
 
-[node name="camara" parent="." instance=ExtResource("1_xjbts")]
+[node name="camara" parent="." instance=ExtResource("2_ae7q7")]
 position = Vector2(132, 72)
 
-[node name="Bally" parent="." instance=ExtResource("3_itcjw")]
+[node name="Bally" parent="." instance=ExtResource("3_tmscp")]
 position = Vector2(38, 78)
 
-[node name="enemy" parent="." instance=ExtResource("4_5nk8j")]
+[node name="enemy" parent="." instance=ExtResource("4_30gwp")]
 position = Vector2(192, 80)
 
-[node name="Boss1Spawn" parent="." instance=ExtResource("5_edthe")]
+[node name="Boss1Spawn" parent="." instance=ExtResource("5_erorx")]
 position = Vector2(180, 72)
-boss_scene = ExtResource("5_iku36")
+boss_scene = ExtResource("6_a1tyb")
 
-[node name="Boss1Spawn2" parent="." instance=ExtResource("5_edthe")]
+[node name="Boss1Spawn2" parent="." instance=ExtResource("5_erorx")]
 position = Vector2(32, 58)
-script = ExtResource("6_2o04o")
-boss_scene = ExtResource("7_4m762")
+script = ExtResource("7_pc41t")
+boss_scene = ExtResource("8_8lxkm")
+
+[node name="enemy_range" parent="." instance=ExtResource("9_os88f")]
+position = Vector2(238, 62)

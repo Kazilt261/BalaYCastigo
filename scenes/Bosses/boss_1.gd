@@ -101,7 +101,7 @@ func attacking():
 func _on_animation_player_animation_finished(anim_name):
 	if anim_name == "death":
 		queue_free()
-		get_tree().change_scene_to_packed(win_scene)
+		LevelManager.next_level()
 	elif anim_name == "bajarse" or anim_name == "other_bajarse":
 		out_car = true
 		is_hurt = false

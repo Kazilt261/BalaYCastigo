@@ -9,8 +9,8 @@ func _ready() -> void:
 
 
 func _physics_process(delta: float) -> void:
-	position -= transform.x * speed * delta
-	position -= transform.y * speed * delta
+	position -= transform.x * balas_robot.speed * delta
+	position -= transform.y * balas_robot.speed * delta
 
 
 func _on_body_entered(body: Node2D):

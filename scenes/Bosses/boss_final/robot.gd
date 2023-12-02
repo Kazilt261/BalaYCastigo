@@ -7,7 +7,6 @@ var damage = 50
 @onready var animation_player = $AnimationPlayer
 @onready var pivot = $Pivot
 @onready var timer = $Timer
-@onready var timer_2 = $Timer2
 @onready var attack = $Pivot/HitBox/attack
 @onready var collision_shape_2d_2 = $CollisionShape2D
 @onready var hit_box = $Pivot/HitBox
@@ -15,7 +14,8 @@ var damage = 50
 @onready var abajo = $Pivot/Abajo
 @onready var arriba = $Pivot/Arriba
 @onready var node_2d = $Pivot/Node2D
-@onready var spawn = $Pivot/Node2D/Spawn
+@onready var spawn = $Pivot/Spawn
+@onready var spawn_2 = $Pivot/Spawn2
 @export var bala: PackedScene
 @export var win_scene: PackedScene
 
@@ -39,7 +39,6 @@ func _ready()-> void:
 	health = max_health
 	hit_box.body_entered.connect(_on_body_entered_boss)
 	timer.timeout.connect(attacking)
-	timer_2.timeout.connect(shot)
 	
 	
 func _physics_process(delta):
@@ -74,15 +73,18 @@ func take_damage(damage):
 
 func shot():
 	if health != 0:
-		var balas = bala.instantiate()
-		get_parent().add_child(balas)
-		balas.global_position = spawn.global_position
-		balas.scale.x = pivot.scale.x
+		var balasL = bala.instantiate()
+		get_parent().add_child(balasL)
+		balasL.global_position = spawn.global_position
+		balasL.scale.x = pivot.scale.x
+		var balasR = bala.instantiate()
+		get_parent().add_child(balasR)
+		balasR.global_position = spawn_2.global_position
+		balasR.scale.x = pivot.scale.x
 
 func attacking():
 	if health != 0:
 		is_attacking = true
-		var tween = create_tween()
 		animation_player.play("attack")
 
 func _on_animation_player_animation_finished(anim_name):
@@ -92,7 +94,6 @@ func _on_animation_player_animation_finished(anim_name):
 	if anim_name == "attack":
 		is_attacking = false
 		timer.start()
-		timer_2.start()
 	if anim_name == "encenderse":
 		is_on = true
 	if anim_name == "reduced_hp":

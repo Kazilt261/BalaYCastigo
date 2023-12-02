@@ -10,6 +10,6 @@ script = ExtResource("1_a1l1r")
 [node name="spawn" type="Marker2D" parent="Node2D"]
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 20.0
 one_shot = true
 autostart = true

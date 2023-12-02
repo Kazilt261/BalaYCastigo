@@ -34,7 +34,8 @@ func _physics_process(delta):
 func _on_body_entered_enemy(body: Node):
 	if body.has_method("sufrir_daño"):
 		body.sufrir_daño(10)
-
+	else:
+		pass
 	
 func take_damage(damage):
 	if health != 0:
