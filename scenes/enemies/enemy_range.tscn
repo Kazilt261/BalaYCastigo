@@ -403,6 +403,7 @@ bullet = ExtResource("2_yraix")
 metadata/_edit_lock_ = true
 
 [node name="Pivot" type="Node2D" parent="."]
+position = Vector2(-126, 86)
 
 [node name="Sprite2D" type="Sprite2D" parent="Pivot"]
 texture = ExtResource("1_02syd")
@@ -416,14 +417,14 @@ position = Vector2(8, 2)
 position = Vector2(-4, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-10, 4)
+position = Vector2(-136, 90)
 shape = SubResource("RectangleShape2D_cboyg")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "shot"
 libraries = {
 "": SubResource("AnimationLibrary_twgjt")
 }
+autoplay = "shot"
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.0

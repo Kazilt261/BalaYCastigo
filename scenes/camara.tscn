@@ -45,63 +45,35 @@ scale = Vector2(4, 1)
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(0, -5)
 
-[node name="Fuego" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -66)
-collision_layer = 8
-collision_mask = 2
-
-[node name="Fuego2" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -53)
-
 [node name="Fuego3" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -40)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, -40)
 
 [node name="Fuego4" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -27)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, -27)
 
 [node name="Fuego5" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -14)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, -14)
 
 [node name="Fuego6" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, -1)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, -1)
 
 [node name="Fuego7" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 12)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 12)
 
 [node name="Fuego8" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 25)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 25)
 
 [node name="Fuego9" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 38)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 38)
 
 [node name="Fuego10" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 51)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 51)
 
 [node name="Fuego11" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 64)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 64)
 
 [node name="Fuego12" parent="Node2D" instance=ExtResource("4_pnpfg")]
-position = Vector2(-118, 77)
-collision_layer = 8
-collision_mask = 2
+position = Vector2(-121, 77)
 
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_CameraArea_body_exited"]
 [connection signal="timeout" from="Timer" to="Area2D" method="free_enemies"]

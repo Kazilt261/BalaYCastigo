@@ -81,11 +81,26 @@ func shot():
 		get_parent().add_child(balasR)
 		balasR.global_position = spawn_2.global_position
 		balasR.scale.x = pivot.scale.x
+		
+func shot2():
+	if health != 0:
+		for i in range(4):
+			var balasL = bala.instantiate()
+			get_parent().add_child(balasL)
+			balasL.global_position = spawn.global_position
+			balasL.scale.x = pivot.scale.x
+
+			var balasR = bala.instantiate()
+			get_parent().add_child(balasR)
+			balasR.global_position = spawn_2.global_position
+			balasR.scale.x = pivot.scale.x
+			await get_tree().create_timer(0.5).timeout
+
 
 func attacking():
 	if health != 0:
 		is_attacking = true
-		animation_player.play("attack")
+		animation_player.play("attack2")
 
 func _on_animation_player_animation_finished(anim_name):
 	if anim_name == "death":

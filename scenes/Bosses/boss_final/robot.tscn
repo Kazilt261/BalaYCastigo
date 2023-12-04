@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://cr08smlfm3roo"]
+[gd_scene load_steps=23 format=3 uid="uid://cr08smlfm3roo"]
 
 [ext_resource type="Script" path="res://scenes/Bosses/boss_final/robot.gd" id="1_ndyvt"]
 [ext_resource type="PackedScene" uid="uid://b27flctyaa58s" path="res://scenes/Bosses/boss_final/balas_robot.tscn" id="2_1aedc"]
@@ -149,6 +149,18 @@ tracks/10/keys = {
 "update": 1,
 "values": [0]
 }
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Pivot/Node2D/Robot Completo:texture")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("7_vdxe0")]
+}
 
 [sub_resource type="Animation" id="Animation_fkpar"]
 resource_name = "attack"
@@ -162,7 +174,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
+"update": 0,
 "values": [20, 21, 22, 23, 24, 25, 26, 27]
 }
 tracks/1/type = "value"
@@ -174,7 +186,7 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [true]
 }
 tracks/2/type = "value"
@@ -264,6 +276,47 @@ tracks/8/keys = {
 }]
 }
 
+[sub_resource type="Animation" id="Animation_6p3fv"]
+resource_name = "attack2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/Node2D/Robot Completo:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [ExtResource("7_vdxe0")]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"shot2"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Pivot/Node2D/Robot Completo:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [40, 41, 42, 43, 44, 45, 46]
+}
+
 [sub_resource type="Animation" id="Animation_p5rmd"]
 resource_name = "death"
 length = 1.3
@@ -276,7 +329,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
+"update": 0,
 "values": [60, 61, 62, 63, 64, 65, 66, 67, 68]
 }
 
@@ -600,6 +653,7 @@ tracks/7/keys = {
 _data = {
 "RESET": SubResource("Animation_yu2bl"),
 "attack": SubResource("Animation_fkpar"),
+"attack2": SubResource("Animation_6p3fv"),
 "death": SubResource("Animation_p5rmd"),
 "encenderse": SubResource("Animation_nlnho"),
 "rayo": SubResource("Animation_8ok46"),
@@ -686,10 +740,11 @@ hframes = 9
 
 [node name="Robot Completo" type="Sprite2D" parent="Pivot/Node2D"]
 visible = false
-position = Vector2(2, -1)
+position = Vector2(5.79664, 157.464)
 rotation = 3.14159
 scale = Vector2(-1, -1)
 texture = ExtResource("7_vdxe0")
+offset = Vector2(-3.79624, -158.464)
 hframes = 10
 vframes = 8
 frame = 10
@@ -714,12 +769,12 @@ position = Vector2(0, 10)
 target_position = Vector2(0, 33)
 
 [node name="Spawn" type="Marker2D" parent="Pivot"]
-position = Vector2(-11, 0)
+position = Vector2(-10, 0)
 rotation = 3.14159
 scale = Vector2(0.75, -0.75)
 
 [node name="Spawn2" type="Marker2D" parent="Pivot"]
-position = Vector2(2, 0)
+position = Vector2(3, 0)
 rotation = 3.14159
 scale = Vector2(0.75, -0.75)
 

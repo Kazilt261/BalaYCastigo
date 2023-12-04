@@ -1,8 +1,8 @@
-Node2D
-CollisionShape2D
-Area2D
-CharacterBody2D
 AnimationPlayer
+CollisionShape2D
+Node2D
+CharacterBody2D
+Area2D
 Timer
 Marker2D
 Sprite2D
@@ -12,8 +12,3 @@ ProgressBar
 CanvasLayer
 PanelContainer
 Container
-TextureRect
-Button
-VBoxContainer
-CenterContainer
-Label
