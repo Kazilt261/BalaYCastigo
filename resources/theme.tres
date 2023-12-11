@@ -6,10 +6,14 @@
 [resource]
 default_font = ExtResource("2_rpwoy")
 default_font_size = 6
-Button/colors/font_color = Color(1, 0.239216, 0.231373, 1)
-Button/colors/font_hover_color = Color(0.890196, 0, 0.105882, 1)
-Button/colors/font_pressed_color = Color(0.741176, 0.345098, 0, 1)
-Label/colors/font_color = Color(1, 0.384314, 0.34902, 1)
+Button/colors/font_color = Color(0.541176, 0.658824, 0.784314, 1)
+Button/colors/font_disabled_color = Color(0.662745, 0.662745, 0.662745, 1)
+Button/colors/font_focus_color = Color(0.529412, 0.807843, 0.980392, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0.501961, 1)
+Button/colors/font_outline_color = Color(0.184314, 0.309804, 0.309804, 1)
+Button/colors/font_pressed_color = Color(0.117647, 0.227451, 0.372549, 1)
+Label/colors/font_color = Color(0.811765, 0.709804, 0.231373, 1)
 MarginContainer/constants/margin_bottom = 6
 MarginContainer/constants/margin_left = 6
 MarginContainer/constants/margin_right = 6

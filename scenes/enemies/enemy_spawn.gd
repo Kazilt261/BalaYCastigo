@@ -14,8 +14,8 @@ func _process(delta):
 	self.position.x += speedx * delta
 	self.position.y += speedy * delta
 	if ray_cast_2d.is_colliding():
-			pivot.scale.y *= -1
-			speedy *= -1
+		ray_cast_2d.target_position.y *= -1
+		speedy *= -1
 
 func spawn_enemy():
 	var random_index = randi() % enemy_scenes.size()

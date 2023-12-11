@@ -10,8 +10,8 @@ var acceleration = 50000
 @onready var sprite_2d = $Pivot/Sprite2D
 
 var is_hurt = false
-var max_health = 50
-var health = 50:
+var max_health = 70
+var health = 70:
 	set(value):
 		health = clamp(value, 0, max_health)
 		if(enemy_health_bar):
@@ -19,7 +19,7 @@ var health = 50:
 		if health == 0:
 			animation_player.play("death")
 			
-func _ready()-> void:
+func _ready():
 	health = max_health
 	hit_box.body_entered.connect(_on_body_entered_enemy)
 

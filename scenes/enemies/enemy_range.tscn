@@ -108,6 +108,18 @@ tracks/7/keys = {
 "update": 0,
 "values": [0.0]
 }
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("CollisionShape2D:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_x5boe"]
 resource_name = "death"
@@ -158,6 +170,18 @@ tracks/3/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [0, 1, 2, 3, 4, 5]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CollisionShape2D:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_r4hpu"]
@@ -211,6 +235,18 @@ tracks/3/keys = {
 "update": 1,
 "values": [1, 0]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CollisionShape2D:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="Animation" id="Animation_4vmls"]
 resource_name = "shot"
@@ -260,7 +296,7 @@ tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
+"update": 0,
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
 }
 tracks/4/type = "value"
@@ -270,10 +306,10 @@ tracks/4/path = NodePath("Pivot/Marker2D:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0.2, 0.6, 1.1),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0.2, 0.6, 0.600571, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2(8, 2), Vector2(5, 13), Vector2(3, -9)]
+"values": [Vector2(8, 2), Vector2(5, 13), Vector2(5, 13), Vector2(3, -10)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -282,10 +318,10 @@ tracks/5/path = NodePath("Pivot/Marker2D:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0.2, 0.6, 1.1),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0.2, 0.6, 0.600571, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [3.14159, 3.69137, 2.19039]
+"values": [3.14159, 3.69137, 3.75246, 2.0944]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
@@ -294,10 +330,10 @@ tracks/6/path = NodePath("Pivot/Marker2D2:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
-"times": PackedFloat32Array(0.2, 0.6, 1.1),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0.2, 0.6, 0.600571, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2(-4, 1), Vector2(-4, 12), Vector2(-6, -9)]
+"values": [Vector2(-4, 1), Vector2(-4, 12), Vector2(-4, 12), Vector2(-6, -10)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
@@ -306,10 +342,10 @@ tracks/7/path = NodePath("Pivot/Marker2D2:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(0.2, 0.6, 1.1),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0.2, 0.6, 0.600571, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [3.14159, 3.76118, 2.26369]
+"values": [3.14159, 3.75246, 3.76118, 2.0944]
 }
 tracks/8/type = "method"
 tracks/8/imported = false
@@ -330,6 +366,18 @@ tracks/8/keys = {
 "args": [],
 "method": &"fire"
 }]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("CollisionShape2D:disabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_vs3jd"]
@@ -384,6 +432,18 @@ tracks/3/keys = {
 "update": 1,
 "values": [0, 1, 2, 3, 4, 5]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CollisionShape2D:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_twgjt"]
 _data = {
@@ -403,7 +463,7 @@ bullet = ExtResource("2_yraix")
 metadata/_edit_lock_ = true
 
 [node name="Pivot" type="Node2D" parent="."]
-position = Vector2(-126, 86)
+position = Vector2(8, -4)
 
 [node name="Sprite2D" type="Sprite2D" parent="Pivot"]
 texture = ExtResource("1_02syd")
@@ -417,8 +477,9 @@ position = Vector2(8, 2)
 position = Vector2(-4, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-136, 90)
 shape = SubResource("RectangleShape2D_cboyg")
+disabled = true
+metadata/_edit_lock_ = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

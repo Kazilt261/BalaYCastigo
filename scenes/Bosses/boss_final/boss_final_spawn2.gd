@@ -14,4 +14,3 @@ func spawn_boss():
 	var boss = boss_scene.instantiate()
 	get_parent().add_child(boss)
 	boss.global_position = spawn.global_position
-	Debug.dprint("A")

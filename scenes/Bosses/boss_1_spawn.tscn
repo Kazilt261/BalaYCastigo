@@ -19,7 +19,7 @@ autostart = true
 [node name="Pivot" type="Node2D" parent="."]
 
 [node name="RayCast2D" type="RayCast2D" parent="Pivot"]
-target_position = Vector2(0, 12)
+target_position = Vector2(0, 2)
 
 [node name="TimerErase" type="Timer" parent="."]
 wait_time = 20.0

@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://bnrydfxvlshjs"]
+
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/balas_robot_v2.gd" id="1_f0gfx"]
+[ext_resource type="Script" path="res://scenes/Bosses/boss_final/Bala1.gd" id="2_4fye2"]
+[ext_resource type="Texture2D" uid="uid://b5degk617pvwv" path="res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/3.png" id="3_37j1y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_el548"]
+size = Vector2(15, 15)
+
+[node name="Balas_robot_v2" type="Node2D"]
+position = Vector2(131, 46)
+scale = Vector2(0.4, 0.4)
+script = ExtResource("1_f0gfx")
+
+[node name="Bala1" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("2_4fye2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bala1"]
+scale = Vector2(0.999999, 0.999999)
+shape = SubResource("RectangleShape2D_el548")
+
+[node name="9" type="Sprite2D" parent="Bala1"]
+scale = Vector2(3, 3)
+texture = ExtResource("3_37j1y")

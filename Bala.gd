@@ -1,12 +1,12 @@
 extends Area2D
 
 @export var speed = 200
-
 var damage = 25
-func _ready() -> void:
+
+func _ready():
 	body_entered.connect(_on_body_entered)
 
-func _physics_process(delta: float) -> void:
+func _physics_process(delta: float):
 	position += transform.x * -speed * delta
 
 func _on_body_entered(body: Node2D):

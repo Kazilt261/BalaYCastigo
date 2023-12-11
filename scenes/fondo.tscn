@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://k4v7s3l0jqa4"]
+
+[ext_resource type="Texture2D" uid="uid://ck22527bkuxa5" path="res://assets/textures/DystopianCity/fondo.png" id="2_q10xs"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(3, -4)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(3, -4)
+motion_mirroring = Vector2(130, 0)
+
+[node name="5" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_q10xs")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(3, -4)
+motion_mirroring = Vector2(149, 0)
+
+[node name="5" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2(20, 87)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_q10xs")

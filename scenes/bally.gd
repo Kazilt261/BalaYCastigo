@@ -5,8 +5,6 @@ extends CharacterBody2D
 var acceleration = 1000
 var gravity = 400
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
-@onready var animation_tree: AnimationTree = $AnimationTree
-@onready var playback = animation_tree.get("parameters/playback")
 @onready var pivot: Node2D = $Pivot
 @onready var cheese_spawn: Marker2D = $Pivot/SpawnBalas
 @onready var timer = $Timer
@@ -33,23 +31,24 @@ var health = 100:
 			health_bar.value = health
 		if health == 0:
 			is_alive = false
-			animation_tree.active = false
+			
 			animation_player.play("death")
 			
 		
 
 
-func _ready() -> void:
+func _ready():
 	health = max_health
-	animation_tree.active = true
 	Game.enemy_kill.connect(on_enemy_kill)
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(delta: float):
 	var movex_input = Input.get_axis("move_left", "move_right")
 	var movey_input = Input.get_axis("move_up", "move_down")
+	move_and_slide()
 	if is_hurt:
-		pass
+		velocity.x = 0
+		velocity.y = 0
 	elif is_alive:
 		if (Input.is_action_pressed("move_left") and (Input.is_action_pressed("move_up") or Input.is_action_pressed("move_down"))):
 			velocity.x = move_toward(velocity.x, speed * movex_input/1.41421356237, acceleration * delta)
@@ -60,23 +59,21 @@ func _physics_process(delta: float) -> void:
 		else:
 			velocity.x = move_toward(velocity.x, speed * movex_input, acceleration * delta)
 			velocity.y = move_toward(velocity.y, speed * movey_input, acceleration * delta)
-		
-		move_and_slide()
-	
-		if Input.is_action_just_pressed("click_left"):
-			timer.wait_time = clamp(timer.wait_time - 0.1, 0.1, 1)
-		if Input.is_action_just_pressed("click_right"):
-			timer.wait_time = clamp(timer.wait_time + 0.1, 0.1, 1)
-		# animation	
-	
+		#if  (Input.is_action_pressed("click_left")):
+			#damage *= 1000000
+			#timer.wait_time = 0.1
+			#max_health = 1000000
+			#health = 1000000
+		#if  (Input.is_action_pressed("click_right")):
+			#timer.wait_time = 10
+			#max_health = 1
+			#health = 1
 		if velocity.x != 0:
 			pivot.scale.x = sign(velocity.x)
-			
-		
 		if abs(velocity.x) > 10 or movex_input or abs(velocity.y) > 10 or movey_input:
-			playback.travel("run")
+			animation_player.play("run")
 		else:
-			playback.travel("idle")
+			animation_player.play("idle")
 		
 
 
@@ -85,7 +82,7 @@ func fire():
 	get_parent().add_child(cheese)
 	cheese.global_position = cheese_spawn.global_position
 	cheese.damage = damage
-	cheese.scale.x = pivot.scale.x
+	cheese.scale.x *= pivot.scale.x
 
 func on_enemy_kill():
 	if damage == 10:

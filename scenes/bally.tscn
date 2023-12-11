@@ -14,7 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://px3oserdk2ok" path="res://assets/textures/Hearts/all_swords.png" id="11_wqyxf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wqigi"]
-size = Vector2(12, 18.5)
+size = Vector2(8, 18.5)
 
 [sub_resource type="Animation" id="Animation_68akx"]
 length = 0.001
@@ -265,6 +265,18 @@ tracks/5/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [0, 1]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_x0w0n"]
@@ -519,6 +531,9 @@ libraries = {
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vgqc1")
+}
 tree_root = SubResource("AnimationNodeStateMachine_o3mih")
 anim_player = NodePath("../AnimationPlayer")
 
@@ -551,7 +566,6 @@ mouse_filter = 2
 [node name="HealthBar" type="ProgressBar" parent="CanvasLayer/GUI"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
-theme_override_colors/font_shadow_color = Color(0.298039, 0.686275, 0.313726, 1)
 theme_override_colors/font_outline_color = Color(0.298039, 0.686275, 0.313726, 1)
 theme_override_styles/fill = SubResource("StyleBoxFlat_amvgc")
 value = 100.0

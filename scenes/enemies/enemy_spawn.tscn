@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://cxt0055cf4jhj" path="res://scenes/enemies/enemy_2.tscn" id="3_whe34"]
 
 [node name="EnemySpawn" type="Node2D"]
-position = Vector2(142, 87)
 script = ExtResource("1_jd4jg")
 enemy_scenes = Array[PackedScene]([ExtResource("3_whe34"), ExtResource("2_5qlkf")])
 
@@ -23,7 +22,7 @@ autostart = true
 [node name="Pivot" type="Node2D" parent="."]
 
 [node name="RayCast2D" type="RayCast2D" parent="Pivot"]
-target_position = Vector2(0, 11)
+target_position = Vector2(0, 2)
 
 [connection signal="timeout" from="TimerSpawn" to="." method="spawn_enemy"]
 [connection signal="timeout" from="TimerErase" to="." method="erase"]

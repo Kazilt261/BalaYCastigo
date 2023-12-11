@@ -48,7 +48,7 @@ func _physics_process(delta):
 			if frente.is_colliding():
 				pivot.scale.x *= -1
 				collision_shape_2d_2.position.x *= -1
-				speedy = randf_range(200,400)
+				speedy = randf_range(100,200)
 			elif abajo.is_colliding():
 				pivot.scale.y *= -1
 				node_2d.scale.y *= -1
@@ -65,7 +65,7 @@ func _physics_process(delta):
 			if frente.is_colliding():
 				pivot.scale.x *= -1
 				collision_shape_2d_2.position.x *= -1
-				speedy = randf_range(100,200)
+				speedy = randf_range(50,100)
 			elif abajo.is_colliding():
 				pivot.scale.y *= -1
 				node_2d.scale.y *= -1
@@ -105,6 +105,9 @@ func _on_animation_player_animation_finished(anim_name):
 	elif anim_name == "bajarse" or anim_name == "other_bajarse":
 		out_car = true
 		is_hurt = false
+		boss_bar.max_value = 50
+		boss_bar.value = 50
+		max_health = max_health/2
 		health = max_health
 	else:
 		if anim_name == "attack":

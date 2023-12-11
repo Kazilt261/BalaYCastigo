@@ -1,10 +1,11 @@
-[gd_scene load_steps=23 format=3 uid="uid://cr08smlfm3roo"]
+[gd_scene load_steps=25 format=3 uid="uid://cr08smlfm3roo"]
 
 [ext_resource type="Script" path="res://scenes/Bosses/boss_final/robot.gd" id="1_ndyvt"]
 [ext_resource type="PackedScene" uid="uid://b27flctyaa58s" path="res://scenes/Bosses/boss_final/balas_robot.tscn" id="2_1aedc"]
 [ext_resource type="Texture2D" uid="uid://c5spelc6dfsla" path="res://assets/textures/Robot_Boss/Left Arm Sprites.png" id="2_8f882"]
 [ext_resource type="PackedScene" uid="uid://chlu2nne8uy4" path="res://scenes/ui/WIN/win.tscn" id="2_aojhy"]
 [ext_resource type="Texture2D" uid="uid://qivc2p1gubng" path="res://assets/textures/Robot_Boss/Chest Sprites.png" id="3_fsvgm"]
+[ext_resource type="PackedScene" uid="uid://bnrydfxvlshjs" path="res://scenes/Bosses/boss_final/balas_robot_v2.tscn" id="3_gg7p3"]
 [ext_resource type="Texture2D" uid="uid://dun5a31mpw3xo" path="res://assets/textures/Robot_Boss/Left Leg Sprites.png" id="4_c6q1h"]
 [ext_resource type="Texture2D" uid="uid://suvesi8tmgck" path="res://assets/textures/Robot_Boss/Right Arm Sprites.png" id="5_4ps8p"]
 [ext_resource type="Texture2D" uid="uid://bgrodrxag4dgh" path="res://assets/textures/Robot_Boss/Right Leg Sprites.png" id="6_ixyuc"]
@@ -161,6 +162,54 @@ tracks/11/keys = {
 "update": 1,
 "values": [ExtResource("7_vdxe0")]
 }
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Spawn:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-10, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Spawn2:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(3, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Pivot/Node2D/Robot Completo:hframes")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [10]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Pivot/Node2D/Robot Completo:vframes")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [8]
+}
 
 [sub_resource type="Animation" id="Animation_fkpar"]
 resource_name = "attack"
@@ -198,7 +247,7 @@ tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/3/type = "value"
@@ -210,7 +259,7 @@ tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/4/type = "value"
@@ -222,7 +271,7 @@ tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/5/type = "value"
@@ -234,7 +283,7 @@ tracks/5/loop_wrap = true
 tracks/5/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/6/type = "value"
@@ -246,7 +295,7 @@ tracks/6/loop_wrap = true
 tracks/6/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/7/type = "value"
@@ -258,7 +307,7 @@ tracks/7/loop_wrap = true
 tracks/7/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
+"update": 0,
 "values": [false]
 }
 tracks/8/type = "method"
@@ -274,6 +323,30 @@ tracks/8/keys = {
 "args": [],
 "method": &"shot"
 }]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Spawn:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(-10, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Spawn2:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(3, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_6p3fv"]
@@ -315,6 +388,30 @@ tracks/2/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
 "update": 0,
 "values": [40, 41, 42, 43, 44, 45, 46]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Spawn2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(13, 12)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Spawn:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-21, 12)]
 }
 
 [sub_resource type="Animation" id="Animation_p5rmd"]
@@ -649,6 +746,75 @@ tracks/7/keys = {
 "values": [true]
 }
 
+[sub_resource type="Animation" id="Animation_68kg4"]
+resource_name = "shield"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/Node2D/Robot Completo:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [ExtResource("7_vdxe0")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/Node2D/Robot Completo:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [10]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Pivot/Node2D/Robot Completo:vframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [8]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Pivot/Node2D/Robot Completo:frame")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05, 1.2, 1.8, 1.95, 2.1, 2.25, 2.4, 2.55, 2.7, 2.85),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [31, 32, 33, 34, 35, 36, 37, 38, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+}
+tracks/4/type = "method"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.5, 2.6),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"heal"
+}, {
+"args": [],
+"method": &"un_heal"
+}]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vr1uk"]
 _data = {
 "RESET": SubResource("Animation_yu2bl"),
@@ -658,19 +824,19 @@ _data = {
 "encenderse": SubResource("Animation_nlnho"),
 "rayo": SubResource("Animation_8ok46"),
 "reduced_hp": SubResource("Animation_gotgq"),
-"run": SubResource("Animation_vre1n")
+"run": SubResource("Animation_vre1n"),
+"shield": SubResource("Animation_68kg4")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k3hjr"]
 size = Vector2(52, 48)
 
 [node name="Robot" type="CharacterBody2D"]
-position = Vector2(97, 36)
 collision_layer = 4
 collision_mask = 8
 motion_mode = 1
 script = ExtResource("1_ndyvt")
-bala = ExtResource("2_1aedc")
+bala = Array[PackedScene]([ExtResource("2_1aedc"), ExtResource("3_gg7p3")])
 win_scene = ExtResource("2_aojhy")
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
@@ -687,20 +853,11 @@ libraries = {
 }
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 4.0
+wait_time = 2.0
 one_shot = true
 autostart = true
 
 [node name="Pivot" type="Node2D" parent="."]
-
-[node name="HitBox" type="Area2D" parent="Pivot"]
-visible = false
-collision_layer = 4
-collision_mask = 10
-
-[node name="attack" type="CollisionShape2D" parent="Pivot/HitBox"]
-position = Vector2(0, 11)
-shape = SubResource("RectangleShape2D_k3hjr")
 
 [node name="Arriba" type="RayCast2D" parent="Pivot"]
 visible = false
@@ -766,17 +923,7 @@ vframes = 13
 
 [node name="Abajo" type="RayCast2D" parent="Pivot"]
 position = Vector2(0, 10)
-target_position = Vector2(0, 33)
-
-[node name="Spawn" type="Marker2D" parent="Pivot"]
-position = Vector2(-10, 0)
-rotation = 3.14159
-scale = Vector2(0.75, -0.75)
-
-[node name="Spawn2" type="Marker2D" parent="Pivot"]
-position = Vector2(3, 0)
-rotation = 3.14159
-scale = Vector2(0.75, -0.75)
+target_position = Vector2(0, 28)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -786,7 +933,28 @@ offset_right = 257.0
 offset_bottom = 24.0
 
 [node name="BossBar" type="ProgressBar" parent="CanvasLayer/MarginContainer"]
+modulate = Color(0.988235, 0.0627451, 0.0313726, 1)
 layout_mode = 2
-value = 100.0
+max_value = 250.0
+value = 250.0
+
+[node name="HitBox" type="Area2D" parent="."]
+visible = false
+collision_layer = 4
+collision_mask = 10
+
+[node name="attack" type="CollisionShape2D" parent="HitBox"]
+position = Vector2(0, 11)
+shape = SubResource("RectangleShape2D_k3hjr")
+
+[node name="Spawn" type="Marker2D" parent="."]
+position = Vector2(-10, 0)
+rotation = 3.14159
+scale = Vector2(0.75, -0.75)
+
+[node name="Spawn2" type="Marker2D" parent="."]
+position = Vector2(3, 0)
+rotation = 3.14159
+scale = Vector2(0.75, -0.75)
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

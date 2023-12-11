@@ -1,15 +1,15 @@
 extends CharacterBody2D
 
-var speed = 60
+var speed
 var acceleration = 50000
 
 @onready var animation_player = $AnimationPlayer
 @onready var pivot = $Pivot
 @onready var hit_box = $HitBox
 @onready var enemy_health_bar = $EnemyHealthBar
-@onready var ray_cast_2d = $Pivot/RayCast2D
 @onready var sprite_2d = $Pivot/Sprite2D
 @onready var timer = $Timer
+@onready var abajo = $Abajo
 
 var is_hurt = false
 var is_attacking = false
@@ -22,7 +22,7 @@ var health = 50:
 		if health == 0:
 			animation_player.play("death")
 			
-func _ready()-> void:
+func _ready():
 	health = max_health
 	hit_box.body_entered.connect(_on_body_entered_enemy)
 	timer.timeout.connect(attacking)
@@ -31,9 +31,10 @@ func _physics_process(delta):
 	if is_attacking or is_hurt:
 		pass
 	else:
-		if ray_cast_2d.is_colliding():
+		if abajo.is_colliding():
 			sprite_2d.scale.y *= -1
 			pivot.scale.y *= -1
+			abajo.target_position.y *= -1
 		
 		else:
 			speed = randf_range(60,120)

@@ -8,13 +8,12 @@
 [node name="level_1" type="Node2D"]
 
 [node name="spawn" parent="." instance=ExtResource("2_lbond")]
-position = Vector2(241, 58)
+position = Vector2(117, -14)
 
 [node name="camara" parent="." instance=ExtResource("3_c73ym")]
-position = Vector2(128, 72)
 
 [node name="Bally" parent="." instance=ExtResource("1_84alk")]
-position = Vector2(154, 59)
+position = Vector2(-83, -7)
 
 [node name="Boss1Spawn" parent="." instance=ExtResource("4_s40g6")]
-position = Vector2(236, 42)
+position = Vector2(117, 1)

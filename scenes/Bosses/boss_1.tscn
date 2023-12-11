@@ -1077,7 +1077,6 @@ _data = {
 }
 
 [node name="Boss1" type="CharacterBody2D"]
-position = Vector2(219, 52)
 collision_layer = 4
 collision_mask = 8
 script = ExtResource("1_jyixh")

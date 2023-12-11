@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dy3uyefli1flj"]
+[gd_scene load_steps=12 format=3 uid="uid://dy3uyefli1flj"]
 
 [ext_resource type="Script" path="res://scenes/levels/level_2.gd" id="1_17jdf"]
 [ext_resource type="PackedScene" uid="uid://b64r8k7nyaqc6" path="res://scenes/camara.tscn" id="2_ae7q7"]
@@ -9,27 +9,26 @@
 [ext_resource type="Script" path="res://scenes/Bosses/boss_final/boss_final_spawn2.gd" id="7_pc41t"]
 [ext_resource type="PackedScene" uid="uid://cr08smlfm3roo" path="res://scenes/Bosses/boss_final/robot.tscn" id="8_8lxkm"]
 [ext_resource type="PackedScene" uid="uid://blfr51nnysw1e" path="res://scenes/enemies/enemy_range.tscn" id="9_os88f"]
+[ext_resource type="PackedScene" uid="uid://cxt0055cf4jhj" path="res://scenes/enemies/enemy_2.tscn" id="10_h1jfo"]
+[ext_resource type="PackedScene" uid="uid://d36tkgw83qjl8" path="res://scenes/enemies/enemy_spawn.tscn" id="11_u6qbc"]
 
 [node name="level_2" type="Node2D"]
 script = ExtResource("1_17jdf")
 
 [node name="camara" parent="." instance=ExtResource("2_ae7q7")]
-position = Vector2(132, 72)
 
 [node name="Bally" parent="." instance=ExtResource("3_tmscp")]
-position = Vector2(38, 78)
-
-[node name="enemy" parent="." instance=ExtResource("4_30gwp")]
-position = Vector2(192, 80)
+position = Vector2(-80, 6)
 
 [node name="Boss1Spawn" parent="." instance=ExtResource("5_erorx")]
-position = Vector2(180, 72)
+position = Vector2(42, 0)
 boss_scene = ExtResource("6_a1tyb")
 
 [node name="Boss1Spawn2" parent="." instance=ExtResource("5_erorx")]
-position = Vector2(32, 58)
+position = Vector2(-106, -14)
 script = ExtResource("7_pc41t")
 boss_scene = ExtResource("8_8lxkm")
 
-[node name="enemy_range" parent="." instance=ExtResource("9_os88f")]
-position = Vector2(238, 62)
+[node name="EnemySpawn" parent="." instance=ExtResource("11_u6qbc")]
+position = Vector2(108, 0)
+enemy_scenes = Array[PackedScene]([ExtResource("10_h1jfo"), ExtResource("4_30gwp"), ExtResource("9_os88f")])

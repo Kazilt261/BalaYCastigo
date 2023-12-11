@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://com4vgvln212u"]
+
+[ext_resource type="PackedScene" uid="uid://brew11y4w8imh" path="res://scenes/floor.tscn" id="1_6tnrr"]
+[ext_resource type="PackedScene" uid="uid://cr08smlfm3roo" path="res://scenes/Bosses/boss_final/robot.tscn" id="2_qp0wx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Floor" parent="." instance=ExtResource("1_6tnrr")]
+position = Vector2(119, 177)
+
+[node name="Floor2" parent="." instance=ExtResource("1_6tnrr")]
+position = Vector2(112, -45)
+
+[node name="Robot" parent="." instance=ExtResource("2_qp0wx")]
+position = Vector2(123, 56)

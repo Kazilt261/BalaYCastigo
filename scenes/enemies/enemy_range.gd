@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 0
+var speed
 var acceleration = 50000
 
 @export var bullet: PackedScene
@@ -12,17 +12,20 @@ var acceleration = 50000
 
 var is_attacking = false
 var is_hurt = false
-var max_health = 100
-var health = 100:
+var is_death = false
+var max_health = 30
+var health = 30:
 	set(value):
 		health = clamp(value, 0, max_health)
 		if health == 0:
+			timer.stop()
 			animation_player.play("death")
 			
 func _physics_process(delta):
 	if is_attacking or is_hurt:
 		pass
 	else:
+		speed = randf_range(80,120)
 		velocity.x = move_toward(velocity.x, -pivot.scale.x * speed/10, acceleration * delta)
 		animation_player.play("walk")
 		

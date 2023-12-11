@@ -7,7 +7,7 @@ extends Node2D
 @onready var timer_erase = $TimerErase
 
 var speedx = 30
-var speedy = 30
+var speedy = 0
 
 func _process(delta):
 	self.position.x += speedx * delta

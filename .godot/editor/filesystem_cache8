@@ -1,61 +1,62 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701659522
+::res://::1702281065
 Bala1.gd::GDScript::-1::1700599877::0::1::::<>Area2D<>::
-Bala.gd::GDScript::-1::1701545937::0::1::::<>Area2D<>::
-export_presets.cfg::TextFile::-1::1700599879::0::1::::<><>::
+Bala.gd::GDScript::-1::1702148298::0::1::::<>Area2D<>::
+daño_fuego.gd::GDScript::-1::1702255878::0::1::::<>Node2D<>::
+export_presets.cfg::TextFile::-1::1702263316::0::1::::<><>::
 icon.svg::CompressedTexture2D::8938766943038835219::1700599879::1701542616::1::::<><>::
-::res://assets/::1700599878
-::res://assets/fonts/::1700599878
-::res://assets/fonts/Kaph_fonts/::1700599878
+::res://assets/::1702088654
+::res://assets/fonts/::1702088654
+::res://assets/fonts/Kaph_fonts/::1702088654
 License.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/fonts/Kaph_fonts/OpenType (.otf)/::1700599878
+::res://assets/fonts/Kaph_fonts/OpenType (.otf)/::1702088654
 Kaph-Italic.otf::FontFile::5573090023339695394::1700599878::1700599878::1::::<><>::
 Kaph-Regular.otf::FontFile::1517488601022438822::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/Kaph_fonts/TrueType (.ttf)/::1700599878
+::res://assets/fonts/Kaph_fonts/TrueType (.ttf)/::1702088654
 Kaph-Italic.ttf::FontFile::4096181982385813009::1700599878::1700599878::1::::<><>::
 Kaph-Regular.ttf::FontFile::4232651269235641788::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/Kaph_fonts/Web Open Font Format (.woff)/::1700599878
+::res://assets/fonts/Kaph_fonts/Web Open Font Format (.woff)/::1702088654
 Kaph-Italic.woff::FontFile::4483543958970550071::1700599878::1700599878::1::::<><>::
 Kaph-Italic.woff2::FontFile::5788874677677903391::1700599878::1700599878::1::::<><>::
 Kaph-Regular.woff::FontFile::3300442888571709243::1700599878::1700599878::1::::<><>::
 Kaph-Regular.woff2::FontFile::9166697704455843398::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/::1702088654
 readme.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/arcade/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/arcade/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::6113207091297991060::1700599878::1700599878::1::::<><>::
 retro-pixel-arcade.otf::FontFile::7150567901624015971::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/cute-mono/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/cute-mono/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::7747338883955915643::1700599878::1700599878::1::::<><>::
 retro-pixel-cute-mono.otf::FontFile::1542853996028955542::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/cute-prop/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/cute-prop/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::6898623036185577371::1700599878::1700599878::1::::<><>::
 retro-pixel-cute-prop.otf::FontFile::1854679493358879485::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/petty-5h/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/petty-5h/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::6319811029371869299::1700599878::1700599878::1::::<><>::
 retro-pixel-petty-5h.otf::FontFile::7383047630976354411::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/petty-5x5/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/petty-5x5/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::6180666898285957832::1700599878::1700599878::1::::<><>::
 retro-pixel-petty-5x5.otf::FontFile::1101153771268335287::1700599878::1700599878::1::::<><>::
-::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/thick/::1700599878
+::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/thick/::1702088654
 info.txt::TextFile::-1::1700599878::0::1::::<><>::
 OFL.txt::TextFile::-1::1700599878::0::1::::<><>::
 preview.png::CompressedTexture2D::7486157013945051163::1700599878::1700599878::1::::<><>::
 retro-pixel-thick.otf::FontFile::3487058999054016425::1700599878::1700599878::1::::<><>::
-::res://assets/textures/::1701484741
-::res://assets/textures/Bosses1/::1700599878
+::res://assets/textures/::1702097411
+::res://assets/textures/Bosses1/::1702088654
 Font.txt::TextFile::-1::1700599878::0::1::::<><>::
 License.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/textures/Bosses1/1/::1700599878
+::res://assets/textures/Bosses1/1/::1702088654
 Attack.png::CompressedTexture2D::764209192220081119::1700599878::1700599878::1::::<><>::
 Death2.png::CompressedTexture2D::8270016959203390134::1700599878::1700599878::1::::<><>::
 Death.png::CompressedTexture2D::2016175324554463731::1700599878::1700599878::1::::<><>::
@@ -67,7 +68,7 @@ Idle.png::CompressedTexture2D::7581061886780773388::1700599878::1700599878::1:::
 Out.png::CompressedTexture2D::2610821926917877279::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::1426609303619196538::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::3186844381360006011::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Bosses1/2/::1700599878
+::res://assets/textures/Bosses1/2/::1702088654
 Attack1.png::CompressedTexture2D::8633462760380433098::1700599878::1700599878::1::::<><>::
 Attack2.png::CompressedTexture2D::4995800766104925004::1700599878::1700599878::1::::<><>::
 Attack3.png::CompressedTexture2D::412345691076830846::1700599878::1700599878::1::::<><>::
@@ -78,7 +79,7 @@ Hurt.png::CompressedTexture2D::1233279346672057083::1700599878::1700599878::1:::
 Idle.png::CompressedTexture2D::160248029628649798::1700599878::1700599878::1::::<><>::
 Sneer.png::CompressedTexture2D::2767767838502311157::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::2853796218038884689::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Bosses1/3/::1700599878
+::res://assets/textures/Bosses1/3/::1702088654
 Attack1.png::CompressedTexture2D::397077262665127576::1700599878::1700599878::1::::<><>::
 Attack2.png::CompressedTexture2D::9128038756930299141::1700599878::1700599878::1::::<><>::
 Attack3.png::CompressedTexture2D::1078384028973766767::1700599878::1700599878::1::::<><>::
@@ -89,11 +90,11 @@ Hurt.png::CompressedTexture2D::3441002088264144932::1700599878::1700599878::1:::
 Idle.png::CompressedTexture2D::3213790344053715340::1700599878::1700599878::1::::<><>::
 Sneer.png::CompressedTexture2D::4569115548138262730::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::5713110279804015664::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/::1700599878
+::res://assets/textures/Cyberpunk_protas/::1702088655
 Font.txt::TextFile::-1::1700599878::0::1::::<><>::
 License.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/1 Characters/::1700599878
-::res://assets/textures/Cyberpunk_protas/1 Characters/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas/1 Characters/::1702088654
+::res://assets/textures/Cyberpunk_protas/1 Characters/1 Biker/::1702088654
 Idle1.png::CompressedTexture2D::3456074245331198358::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::3534281855623403722::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::4551998520069063045::1700599878::1700599878::1::::<><>::
@@ -104,7 +105,7 @@ Sitdown1.png::CompressedTexture2D::6351777773178937430::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::5549207391508524021::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::232157526338756844::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::205339109844649649::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/::1702088654
 Idle1.png::CompressedTexture2D::824614582004782485::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::1996158515854587197::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::9145791127452052765::1700599878::1700599878::1::::<><>::
@@ -115,7 +116,7 @@ Sitdown1.png::CompressedTexture2D::4125677060026281947::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::2575669636764156718::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::6103861326826118333::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::1274478149841512993::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/1 Characters/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas/1 Characters/3 Cyborg/::1702088654
 Idle1.png::CompressedTexture2D::276582465621447787::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::2342598100236960117::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::3259603329254098055::1700599878::1700599878::1::::<><>::
@@ -126,7 +127,7 @@ Sitdown1.png::CompressedTexture2D::1580920202337035298::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::7566205551522515218::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::5419412355380201252::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/2 Guns/::1700599878
+::res://assets/textures/Cyberpunk_protas/2 Guns/::1702088654
 1_1.png::CompressedTexture2D::3054611526405297261::1700599878::1700599878::1::::<><>::
 1_2.png::CompressedTexture2D::8411906559052954506::1700599878::1700599878::1::::<><>::
 2_1.png::CompressedTexture2D::1762745579931517935::1700599878::1700599878::1::::<><>::
@@ -147,8 +148,8 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 9_2.png::CompressedTexture2D::4093657526065133773::1700599878::1700599878::1::::<><>::
 10_1.png::CompressedTexture2D::2836670605700249589::1700599878::1700599878::1::::<><>::
 10_2.png::CompressedTexture2D::3158152260338791671::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/3 Hands/::1700599878
-::res://assets/textures/Cyberpunk_protas/3 Hands/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas/3 Hands/::1702088655
+::res://assets/textures/Cyberpunk_protas/3 Hands/1 Biker/::1702088654
 1.png::CompressedTexture2D::3555165971005739452::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::7130128423435643184::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::8292276109207762630::1700599878::1700599878::1::::<><>::
@@ -159,7 +160,7 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 8.png::CompressedTexture2D::2702355300308830206::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::6413559225942768275::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::5372006347471808525::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/3 Hands/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas/3 Hands/2 Punk/::1702088655
 1.png::CompressedTexture2D::6932462259525894213::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::4885740534861938109::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::5791179813874844810::1700599878::1700599878::1::::<><>::
@@ -170,7 +171,7 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 8.png::CompressedTexture2D::8200858731216873556::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::1022953287887053989::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::8255863323870239356::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/3 Hands/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas/3 Hands/3 Cyborg/::1702088655
 1.png::CompressedTexture2D::6488452167383062961::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::3843507012205243674::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::274284957461449919::1700599878::1700599878::1::::<><>::
@@ -181,7 +182,7 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 8.png::CompressedTexture2D::7876477845605372180::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::5300100893026350885::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::6033703952785603971::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/4 Shoot_effects/::1700599878
+::res://assets/textures/Cyberpunk_protas/4 Shoot_effects/::1702088655
 1_1.png::CompressedTexture2D::7959852706018647861::1700599878::1700599878::1::::<><>::
 1_2.png::CompressedTexture2D::9058509124907170637::1700599878::1700599878::1::::<><>::
 2_1.png::CompressedTexture2D::6418219339901298197::1700599878::1700599878::1::::<><>::
@@ -192,7 +193,7 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 4_2.png::CompressedTexture2D::3622164392308141210::1700599878::1700599878::1::::<><>::
 5_1.png::CompressedTexture2D::1537718330573456418::1700599878::1700599878::1::::<><>::
 5_2.png::CompressedTexture2D::5330290291751481492::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas/5 Bullets/::1700599878
+::res://assets/textures/Cyberpunk_protas/5 Bullets/::1702088655
 1.png::CompressedTexture2D::8025191871436973605::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::2450834947022381683::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::3300710907004613128::1700599878::1700599878::1::::<><>::
@@ -206,10 +207,10 @@ Walk2.png::CompressedTexture2D::7389796271455207315::1700599878::1700599878::1::
 8.png::CompressedTexture2D::7606354367021189049::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::1562840904633265017::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::5118988014468037261::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_animations/::1700599878
+::res://assets/textures/Cyberpunk_protas_animations/::1702088655
 Font.txt::TextFile::-1::1700599878::0::1::::<><>::
 License.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_animations/1/::1700599878
+::res://assets/textures/Cyberpunk_protas_animations/1/::1702088655
 Angry.png::CompressedTexture2D::65888532712498654::1700599878::1700599878::1::::<><>::
 Dash.png::CompressedTexture2D::5676962418702786795::1700599878::1700599878::1::::<><>::
 Fall.png::CompressedTexture2D::8897504669483212862::1700599878::1700599878::1::::<><>::
@@ -222,7 +223,7 @@ Talk.png::CompressedTexture2D::4582047406484124939::1700599878::1700599878::1:::
 Use.png::CompressedTexture2D::543539859638556360::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::4025202948710589890::1700599878::1700599878::1::::<><>::
 Walk_attack.png::CompressedTexture2D::5660729881019900933::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_animations/2/::1700599878
+::res://assets/textures/Cyberpunk_protas_animations/2/::1702088655
 Angry.png::CompressedTexture2D::8132334598651972581::1700599878::1700599878::1::::<><>::
 Dash.png::CompressedTexture2D::3576179075290179038::1700599878::1700599878::1::::<><>::
 Fall.png::CompressedTexture2D::3703069125306868810::1700599878::1700599878::1::::<><>::
@@ -235,7 +236,7 @@ Talk.png::CompressedTexture2D::3990749439786463520::1700599878::1700599878::1:::
 Use.png::CompressedTexture2D::1433750383361645997::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::795024903180593883::1700599878::1700599878::1::::<><>::
 Walk_attack.png::CompressedTexture2D::5019695154508637172::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_animations/3/::1700599878
+::res://assets/textures/Cyberpunk_protas_animations/3/::1702088655
 Angry.png::CompressedTexture2D::4711150027979256214::1700599878::1700599878::1::::<><>::
 Dash.png::CompressedTexture2D::62626687027656838::1700599878::1700599878::1::::<><>::
 Fall.png::CompressedTexture2D::3217883533379315219::1700599878::1700599878::1::::<><>::
@@ -248,10 +249,10 @@ Talk.png::CompressedTexture2D::1637454037620383508::1700599878::1700599878::1:::
 Use.png::CompressedTexture2D::5596888554441409586::1700599878::1700599878::1::::<><>::
 Walk.png::CompressedTexture2D::2816386430381798603::1700599878::1700599878::1::::<><>::
 Walk_attack.png::CompressedTexture2D::8175901193872696678::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_v2/::1700599878
+::res://assets/textures/Cyberpunk_protas_v2/::1702088655
 Font.txt::TextFile::-1::1700599878::0::1::::<><>::
 license.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_v2/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas_v2/1 Biker/::1702088655
 Biker_attack1.png::CompressedTexture2D::2350131569530650046::1700599878::1700599878::1::::<><>::
 Biker_attack2.png::CompressedTexture2D::7741620946099837691::1700599878::1700599878::1::::<><>::
 Biker_attack3.png::CompressedTexture2D::6515328078593048273::1700599878::1700599878::1::::<><>::
@@ -264,7 +265,7 @@ Biker_jump.png::CompressedTexture2D::1771911421675092516::1700599878::1700599878
 Biker_punch.png::CompressedTexture2D::6918397732265477190::1700599878::1700599878::1::::<><>::
 Biker_run.png::CompressedTexture2D::4592026837832234209::1700599878::1700599878::1::::<><>::
 Biker_run_attack.png::CompressedTexture2D::2838287092780713785::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_v2/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas_v2/2 Punk/::1702088655
 Punk_attack1.png::CompressedTexture2D::6422201719874517874::1700599878::1700599878::1::::<><>::
 Punk_attack2.png::CompressedTexture2D::981319860710226716::1700599878::1700599878::1::::<><>::
 Punk_attack3.png::CompressedTexture2D::7695461286471274655::1700599878::1700599878::1::::<><>::
@@ -277,7 +278,7 @@ Punk_jump.png::CompressedTexture2D::3908189952168283425::1700599878::1700599878:
 Punk_punch.png::CompressedTexture2D::1258713556102696812::1700599878::1700599878::1::::<><>::
 Punk_run.png::CompressedTexture2D::8193724539404729744::1700599878::1700599878::1::::<><>::
 Punk_run_attack.png::CompressedTexture2D::6302721858132738815::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_v2/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas_v2/3 Cyborg/::1702088655
 Cyborg_attack1.png::CompressedTexture2D::3342050591359637264::1700599878::1700599878::1::::<><>::
 Cyborg_attack2.png::CompressedTexture2D::5896498272898511104::1700599878::1700599878::1::::<><>::
 Cyborg_attack3.png::CompressedTexture2D::2275374991254181371::1700599878::1700599878::1::::<><>::
@@ -290,12 +291,12 @@ Cyborg_jump.png::CompressedTexture2D::1191313556533202559::1700599878::170059987
 Cyborg_punch.png::CompressedTexture2D::1491664016959969183::1700599878::1700599878::1::::<><>::
 Cyborg_run.png::CompressedTexture2D::4163212563184656187::1700599878::1700599878::1::::<><>::
 Cyborg_run_attack.png::CompressedTexture2D::4018999738582063396::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/::1702088655
 Coupon by craftpix.png::CompressedTexture2D::8721449945092146680::1700599878::1700599878::1::::<><>::
 Font.txt::TextFile::-1::1700599878::0::1::::<><>::
 License.txt::TextFile::-1::1700599878::0::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/::1700599878
-::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/::1702088655
+::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/1 Biker/::1702088655
 Idle1.png::CompressedTexture2D::1983376551662285843::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::7887340833078487007::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::6936711689602273859::1700599878::1700599878::1::::<><>::
@@ -306,7 +307,7 @@ Sitdown1.png::CompressedTexture2D::327607817623867299::1700599878::1700599878::1
 Sitdown2.png::CompressedTexture2D::7648219322506242678::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::4616487595544540721::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::2846311682972688837::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/2 Punk/::1702088655
 Idle1.png::CompressedTexture2D::449199286616928737::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::4698359619717918641::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::7166678853542271487::1700599878::1700599878::1::::<><>::
@@ -317,7 +318,7 @@ Sitdown1.png::CompressedTexture2D::5960930923467185621::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::852625208703170176::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::4602764420314067708::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::1840078591563717792::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/1 Characters/3 Cyborg/::1702088655
 Idle1.png::CompressedTexture2D::6163781164232656136::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::2889225824791300110::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::2178053528814154686::1700599878::1700599878::1::::<><>::
@@ -328,7 +329,7 @@ Sitdown1.png::CompressedTexture2D::1065357503201121661::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::3253669452850064963::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::5378946242856879797::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/2 Guns/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/2 Guns/::1702088655
 1_1.png::CompressedTexture2D::4051915486784603512::1700599878::1700599878::1::::<><>::
 1_2.png::CompressedTexture2D::8017535569490172880::1700599878::1700599878::1::::<><>::
 2_1.png::CompressedTexture2D::7708536894388141137::1700599878::1700599878::1::::<><>::
@@ -349,8 +350,8 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 9_2.png::CompressedTexture2D::1311810990415502964::1700599878::1700599878::1::::<><>::
 10_1.png::CompressedTexture2D::7275200175758370813::1700599878::1700599878::1::::<><>::
 10_2.png::CompressedTexture2D::5940793906532029322::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/::1700599878
-::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/::1702088655
+::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/1 Biker/::1702088655
 1.png::CompressedTexture2D::7349913541446194955::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::2429183985171424720::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::2807083936012200892::1700599878::1700599878::1::::<><>::
@@ -361,7 +362,7 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 8.png::CompressedTexture2D::5495985789627258548::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::4463210271914825225::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::7262599442654723354::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/2 Punk/::1702088655
 1.png::CompressedTexture2D::611445350868037189::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::5230269515318453727::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::8238831330968707517::1700599878::1700599878::1::::<><>::
@@ -372,7 +373,7 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 8.png::CompressedTexture2D::2326466374252408325::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::7124214433539090813::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::1758210549097989275::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/3 Hands/3 Cyborg/::1702088655
 1.png::CompressedTexture2D::5712748554907387899::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::2353499990211293616::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::1082421782287795183::1700599878::1700599878::1::::<><>::
@@ -383,7 +384,7 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 8.png::CompressedTexture2D::864523638520213403::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::3283467982239102397::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::3952948365625354888::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/4 Shoot_effects/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/4 Shoot_effects/::1702088655
 1_1.png::CompressedTexture2D::3484753444747248216::1700599878::1700599878::1::::<><>::
 1_2.png::CompressedTexture2D::8302863053271671172::1700599878::1700599878::1::::<><>::
 2_1.png::CompressedTexture2D::2364626350928539822::1700599878::1700599878::1::::<><>::
@@ -394,7 +395,7 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 4_2.png::CompressedTexture2D::6139650178108360399::1700599878::1700599878::1::::<><>::
 5_1.png::CompressedTexture2D::491774638036670258::1700599878::1700599878::1::::<><>::
 5_2.png::CompressedTexture2D::8812136514969771283::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/::1702088655
 1.png::CompressedTexture2D::1254122325378830286::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::5360053720971468700::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::4498533283177883853::1700599878::1700599878::1::::<><>::
@@ -408,12 +409,12 @@ Walk2.png::CompressedTexture2D::5833404220839651932::1700599878::1700599878::1::
 8.png::CompressedTexture2D::3742517411218232288::1700599878::1700599878::1::::<><>::
 9.png::CompressedTexture2D::840431235688226586::1700599878::1700599878::1::::<><>::
 10.png::CompressedTexture2D::3200103791544121523::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns/PSD/::1700599878
-::res://assets/textures/Cyberpunk_protas_with_guns_2/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns/PSD/::1702088655
+::res://assets/textures/Cyberpunk_protas_with_guns_2/::1702088655
 Font.txt::TextFile::-1::1700599879::0::1::::<><>::
 License.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/::1700599878
-::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/1 Biker/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/::1702088655
+::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/1 Biker/::1702088655
 Idle1.png::CompressedTexture2D::7120670839857463039::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::8837070425756324462::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::929090273508822752::1700599878::1700599878::1::::<><>::
@@ -424,7 +425,7 @@ Sitdown1.png::CompressedTexture2D::5105179073072652208::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::4482374178645362549::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::511779032463975753::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::4841157191860493642::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/2 Punk/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/2 Punk/::1702088655
 Idle1.png::CompressedTexture2D::8941421886702205106::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::7717882114212048933::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::5412148110542968458::1700599878::1700599878::1::::<><>::
@@ -435,7 +436,7 @@ Sitdown1.png::CompressedTexture2D::2095685347967253130::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::7257457553790724862::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::7234003007802680795::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::8849946157970276818::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/3 Cyborg/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns_2/1 Characters/3 Cyborg/::1702088655
 Idle1.png::CompressedTexture2D::7474223075857453529::1700599878::1700599878::1::::<><>::
 Idle2.png::CompressedTexture2D::2824402860330367672::1700599878::1700599878::1::::<><>::
 Jump1.png::CompressedTexture2D::3640240949057329917::1700599878::1700599878::1::::<><>::
@@ -446,7 +447,7 @@ Sitdown1.png::CompressedTexture2D::2883281526596845041::1700599878::1700599878::
 Sitdown2.png::CompressedTexture2D::5947116768920833752::1700599878::1700599878::1::::<><>::
 Walk1.png::CompressedTexture2D::4599215485271977566::1700599878::1700599878::1::::<><>::
 Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/2 Guns/::1700599878
+::res://assets/textures/Cyberpunk_protas_with_guns_2/2 Guns/::1702088655
 1_1.png::CompressedTexture2D::4954926519592250049::1700599878::1700599878::1::::<><>::
 1_2.png::CompressedTexture2D::7921917061988052183::1700599878::1700599878::1::::<><>::
 2_1.png::CompressedTexture2D::1020158580162851052::1700599878::1700599878::1::::<><>::
@@ -467,8 +468,8 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 9_2.png::CompressedTexture2D::4394227953293487477::1700599878::1700599878::1::::<><>::
 10_1.png::CompressedTexture2D::4748335417972716256::1700599878::1700599878::1::::<><>::
 10_2.png::CompressedTexture2D::3840662460771705198::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/::1700599879
-::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/1 Biker/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/::1702088655
+::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/1 Biker/::1702088655
 1.png::CompressedTexture2D::1895494427956629721::1700599878::1700599878::1::::<><>::
 2.png::CompressedTexture2D::911365925584698938::1700599878::1700599878::1::::<><>::
 3.png::CompressedTexture2D::2293398538281543972::1700599878::1700599878::1::::<><>::
@@ -479,7 +480,7 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 8.png::CompressedTexture2D::8335457255398109432::1700599879::1700599879::1::::<><>::
 9.png::CompressedTexture2D::8700723320745402455::1700599879::1700599879::1::::<><>::
 10.png::CompressedTexture2D::7839735190608334796::1700599878::1700599878::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/2 Punk/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/2 Punk/::1702088655
 1.png::CompressedTexture2D::6962763901974755001::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::5734802623655269701::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::1926085334895909482::1700599879::1700599879::1::::<><>::
@@ -490,7 +491,7 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 8.png::CompressedTexture2D::7670271978116691034::1700599879::1700599879::1::::<><>::
 9.png::CompressedTexture2D::2337620600990916581::1700599879::1700599879::1::::<><>::
 10.png::CompressedTexture2D::5087644733784152572::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/3 Cyborg/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns_2/3 Hands/3 Cyborg/::1702088655
 1.png::CompressedTexture2D::599031153174250746::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::3245902694568735094::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::5776884648788026902::1700599879::1700599879::1::::<><>::
@@ -501,7 +502,7 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 8.png::CompressedTexture2D::3825604867744833185::1700599879::1700599879::1::::<><>::
 9.png::CompressedTexture2D::8675226155522018951::1700599879::1700599879::1::::<><>::
 10.png::CompressedTexture2D::307311700849406585::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/4 Shoot_effects/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns_2/4 Shoot_effects/::1702088655
 6_1.png::CompressedTexture2D::3754538437727708943::1700599879::1700599879::1::::<><>::
 6_2.png::CompressedTexture2D::1453038027286741287::1700599879::1700599879::1::::<><>::
 7_1.png::CompressedTexture2D::2394228351177786263::1700599879::1700599879::1::::<><>::
@@ -512,7 +513,7 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 9_2.png::CompressedTexture2D::3311429761249410354::1700599879::1700599879::1::::<><>::
 10_1.png::CompressedTexture2D::1061032565697230987::1700599879::1700599879::1::::<><>::
 10_2.png::CompressedTexture2D::796960455675692210::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_protas_with_guns_2/5 Bullets/::1700599879
+::res://assets/textures/Cyberpunk_protas_with_guns_2/5 Bullets/::1702088655
 1.png::CompressedTexture2D::3233999187727483200::1700599879::1700599879::1::::<><>::
 1_2.png::CompressedTexture2D::2319519841765419824::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::1052978187577670186::1700599879::1700599879::1::::<><>::
@@ -532,41 +533,41 @@ Walk2.png::CompressedTexture2D::5976595619433319730::1700599878::1700599878::1::
 9_2.png::CompressedTexture2D::4132553613457260880::1700599879::1700599879::1::::<><>::
 10.png::CompressedTexture2D::2433505816825121848::1700599879::1700599879::1::::<><>::
 10_2.png::CompressedTexture2D::125324896757962743::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/::1700599879
+::res://assets/textures/Cyberpunk_villians/::1702088656
 Font.txt::TextFile::-1::1700599879::0::1::::<><>::
 License.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/1/::1700599879
+::res://assets/textures/Cyberpunk_villians/1/::1702088656
 Attack.png::CompressedTexture2D::3667254231356808408::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::6529000838342722757::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::4344708472500762385::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::573776196324185018::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::8556142959733676865::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/2/::1700599879
+::res://assets/textures/Cyberpunk_villians/2/::1702088656
 Attack.png::CompressedTexture2D::5298549378433638437::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::6555339767881819096::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::3269330345319756826::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::7732039760956870250::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::1185893131211993819::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/3/::1700599879
+::res://assets/textures/Cyberpunk_villians/3/::1702088656
 Attack.png::CompressedTexture2D::5013140810290256737::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::2647560785724043365::1700599879::1700599879::1::::<><>::
 Hurt2.png::CompressedTexture2D::7801723649599113409::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::7351471677806383443::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::9163939664752312070::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::4393767681480517243::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/4/::1700599879
+::res://assets/textures/Cyberpunk_villians/4/::1702088656
 Attack.png::CompressedTexture2D::3017455856847954417::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::1717847250647908289::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::1125703407711529863::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::7385068402320295575::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::2254077699895818343::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/5/::1700599879
+::res://assets/textures/Cyberpunk_villians/5/::1702088656
 Attack.png::CompressedTexture2D::4437399783095470396::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::5517810695386797276::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::5704117585677322408::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::4187746557382158046::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::1850665591105075995::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Cyberpunk_villians/6/::1700599879
+::res://assets/textures/Cyberpunk_villians/6/::1702088656
 Attack.png::CompressedTexture2D::6345186132049923697::1700599879::1700599879::1::::<><>::
 Ball1.png::CompressedTexture2D::5744186018128890404::1700599879::1700599879::1::::<><>::
 Ball2.png::CompressedTexture2D::9149012354916314095::1700599879::1700599879::1::::<><>::
@@ -574,20 +575,20 @@ Death.png::CompressedTexture2D::4531315091628005474::1700599879::1700599879::1::
 Hurt.png::CompressedTexture2D::3451706192681399349::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::1201080267916792731::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::2113260902213053391::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/::1700599879
+::res://assets/textures/Drones/::1702088656
 Font.txt::TextFile::-1::1700599879::0::1::::<><>::
 license.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/Drones/1 Drones/::1700599879
-::res://assets/textures/Drones/1 Drones/1/::1700599879
+::res://assets/textures/Drones/1 Drones/::1702088656
+::res://assets/textures/Drones/1 Drones/1/::1702088656
 Death.png::CompressedTexture2D::4895395680272559338::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::8790060037945407074::1700599879::1700599879::1::::<><>::
 Scan.png::CompressedTexture2D::3082163892025143160::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::602156176163009648::1700599879::1700599879::1::::<><>::
 Walk_scan.png::CompressedTexture2D::8251199553990606131::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/2/::1700599879
+::res://assets/textures/Drones/1 Drones/2/::1702088656
 Bomb.png::CompressedTexture2D::3649725378030976740::1700599879::1700599879::1::::<><>::
 Drop.png::CompressedTexture2D::1780042943161350180::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/3/::1700599879
+::res://assets/textures/Drones/1 Drones/3/::1702088656
 Back.png::CompressedTexture2D::4128734291870919430::1700599879::1700599879::1::::<><>::
 Death.png::CompressedTexture2D::6425721358099201746::1700599879::1700599879::1::::<><>::
 Fire1.png::CompressedTexture2D::3041109011251282325::1700599879::1700599879::1::::<><>::
@@ -595,33 +596,43 @@ Fire2.png::CompressedTexture2D::3053643062325603985::1700599879::1700599879::1::
 Fire3.png::CompressedTexture2D::304091886757505055::1700599879::1700599879::1::::<><>::
 Forward.png::CompressedTexture2D::1226884534288052153::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::9166019469496157160::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/4/::1700599879
+::res://assets/textures/Drones/1 Drones/4/::1702088656
 Death.png::CompressedTexture2D::2855534888402156177::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::1945346659911671866::1700599879::1700599879::1::::<><>::
 Landing.png::CompressedTexture2D::7717527142706364660::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::9159587172370988584::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/5/::1700599879
+::res://assets/textures/Drones/1 Drones/5/::1702088656
 Death.png::CompressedTexture2D::4014654224009835737::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::3653228344582293183::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::5414643945392762345::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/5_2/::1700599879
+::res://assets/textures/Drones/1 Drones/5_2/::1702088656
 Death.png::CompressedTexture2D::396476767645819553::1700599879::1700599879::1::::<><>::
 Idle.png::CompressedTexture2D::6931781921487398318::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::8194664356094471821::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/1 Drones/6/::1700599879
+::res://assets/textures/Drones/1 Drones/6/::1702088656
 Capsule.png::CompressedTexture2D::596085532246571603::1700599879::1700599879::1::::<><>::
 Drop.png::CompressedTexture2D::276930540622880487::1700599879::1700599879::1::::<><>::
 Walk2.png::CompressedTexture2D::1186729502166753294::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::5758007484641759028::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/2 Character animations/::1700599879
+::res://assets/textures/Drones/2 Character animations/::1702088656
 1.png::CompressedTexture2D::2111193593776194380::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::2558678692379025892::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::1493006997620417540::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Drones/PSD/::1700599879
-::res://assets/textures/Efectos/::1700599879
+::res://assets/textures/Drones/PSD/::1702088656
+::res://assets/textures/DystopianCity/::1702111997
+fondo.png::CompressedTexture2D::5532162403371787994::1702111966::1702111997::1::::<><>::
+License.txt::TextFile::-1::1663104964::0::1::::<><>::
+SampleImage.png::CompressedTexture2D::7474673751303161632::1663104796::1702097416::1::::<><>::
+::res://assets/textures/DystopianCity/PNG/::1702097467
+0.png::CompressedTexture2D::5486171066736302401::1663102398::1702097415::1::::<><>::
+1.png::CompressedTexture2D::6904855942478956747::1663102398::1702097415::1::::<><>::
+2.png::CompressedTexture2D::4394116141310360521::1663102398::1702097415::1::::<><>::
+3.PNG::CompressedTexture2D::2946929522967110834::1663102398::1702097415::1::::<><>::
+4.png::CompressedTexture2D::3938165605220866987::1663103650::1702097415::1::::<><>::
+::res://assets/textures/Efectos/::1702088656
 Font.txt::TextFile::-1::1700599879::0::1::::<><>::
 License.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/Efectos/1 Smoke/::1700599879
+::res://assets/textures/Efectos/1 Smoke/::1702088656
 1.png::CompressedTexture2D::2532676699772306689::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::5963269231994546901::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::4578768271701305429::1700599879::1700599879::1::::<><>::
@@ -640,7 +651,7 @@ License.txt::TextFile::-1::1700599879::0::1::::<><>::
 16.png::CompressedTexture2D::8590910080856710535::1700599879::1700599879::1::::<><>::
 17.png::CompressedTexture2D::4346716992570071204::1700599879::1700599879::1::::<><>::
 18.png::CompressedTexture2D::1628235399795817231::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/2 Blood/::1700599879
+::res://assets/textures/Efectos/2 Blood/::1702088656
 1.png::CompressedTexture2D::774227938067747172::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::3319357087192946495::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::892795177330529686::1700599879::1700599879::1::::<><>::
@@ -649,7 +660,7 @@ License.txt::TextFile::-1::1700599879::0::1::::<><>::
 6.png::CompressedTexture2D::3363539910760150294::1700599879::1700599879::1::::<><>::
 7.png::CompressedTexture2D::7415783724536253237::1700599879::1700599879::1::::<><>::
 8.png::CompressedTexture2D::432447191071680336::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/3 Sparks/::1700599879
+::res://assets/textures/Efectos/3 Sparks/::1702088656
 1.png::CompressedTexture2D::311544149135402020::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::7589475763699403340::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::8861907012179442083::1700599879::1700599879::1::::<><>::
@@ -658,7 +669,7 @@ License.txt::TextFile::-1::1700599879::0::1::::<><>::
 6.png::CompressedTexture2D::6780175511307267228::1700599879::1700599879::1::::<><>::
 7.png::CompressedTexture2D::1080071993507026738::1700599879::1700599879::1::::<><>::
 8.png::CompressedTexture2D::8399635154522906429::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/4 Particles/::1700599879
+::res://assets/textures/Efectos/4 Particles/::1702088656
 1.png::CompressedTexture2D::8946567783825983148::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::1447109348348176474::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::5467144336303353081::1700599879::1700599879::1::::<><>::
@@ -671,7 +682,7 @@ License.txt::TextFile::-1::1700599879::0::1::::<><>::
 10.png::CompressedTexture2D::3301239674821006396::1700599879::1700599879::1::::<><>::
 11.png::CompressedTexture2D::5251197398106363375::1700599879::1700599879::1::::<><>::
 12.png::CompressedTexture2D::4569663385935699650::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/5 Other/::1700599879
+::res://assets/textures/Efectos/5 Other/::1702088656
 1.png::CompressedTexture2D::1460945890352469620::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::6643625040723627158::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::2222244070870771718::1700599879::1700599879::1::::<><>::
@@ -684,8 +695,8 @@ Portal1.png::CompressedTexture2D::3750866077638159853::1700599879::1700599879::1
 Portal2.png::CompressedTexture2D::3453502883540791837::1700599879::1700599879::1::::<><>::
 Smoke1.png::CompressedTexture2D::4730334568268652633::1700599879::1700599879::1::::<><>::
 Smoke2.png::CompressedTexture2D::4948459807240810063::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/6 Extra/::1700599879
-::res://assets/textures/Efectos/6 Extra/Character/::1700599879
+::res://assets/textures/Efectos/6 Extra/::1702088656
+::res://assets/textures/Efectos/6 Extra/Character/::1702088656
 Biker_death.png::CompressedTexture2D::3414463964099225740::1700599879::1700599879::1::::<><>::
 Biker_doublejump.png::CompressedTexture2D::5403963632882648413::1700599879::1700599879::1::::<><>::
 Biker_hurt.png::CompressedTexture2D::1304084351331091276::1700599879::1700599879::1::::<><>::
@@ -694,156 +705,156 @@ Biker_run.png::CompressedTexture2D::1723468232488383665::1700599879::1700599879:
 Fall.png::CompressedTexture2D::7044405493212060278::1700599879::1700599879::1::::<><>::
 Hurt.png::CompressedTexture2D::727762858980981043::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::2195281869961567812::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/6 Extra/Objects/::1700599879
-::res://assets/textures/Efectos/6 Extra/Objects/Box1/::1700599879
+::res://assets/textures/Efectos/6 Extra/Objects/::1702088656
+::res://assets/textures/Efectos/6 Extra/Objects/Box1/::1702088656
 1.png::CompressedTexture2D::955081211521391061::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::3752425921408005692::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::2400411571471016653::1700599879::1700599879::1::::<><>::
 4.png::CompressedTexture2D::9090858953270845986::1700599879::1700599879::1::::<><>::
 5.png::CompressedTexture2D::8136254337301646312::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/6 Extra/Objects/Box2/::1700599879
+::res://assets/textures/Efectos/6 Extra/Objects/Box2/::1702088656
 1.png::CompressedTexture2D::3992148707573031413::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::2851883286455238779::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::7642014202522490006::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/6 Extra/Objects/Bush/::1700599879
+::res://assets/textures/Efectos/6 Extra/Objects/Bush/::1702088656
 1.png::CompressedTexture2D::221886514412437738::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::3976751252527532112::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::880198120107038837::1700599879::1700599879::1::::<><>::
 4.png::CompressedTexture2D::3264913529750913417::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Efectos/6 Extra/Objects/Capsule/::1700599879
+::res://assets/textures/Efectos/6 Extra/Objects/Capsule/::1702088656
 1.png::CompressedTexture2D::551584174958078750::1700599879::1700599879::1::::<><>::
 2.png::CompressedTexture2D::7002461255768201092::1700599879::1700599879::1::::<><>::
 3.png::CompressedTexture2D::6170931886849238955::1700599879::1700599879::1::::<><>::
 4.png::CompressedTexture2D::6299082124421689884::1700599879::1700599879::1::::<><>::
-::res://assets/textures/extras/::1700599879
-::res://assets/textures/extras/cyberpunk-street-files/::1700599879
+::res://assets/textures/extras/::1702088656
+::res://assets/textures/extras/cyberpunk-street-files/::1702088656
 public-license.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/extras/cyberpunk-street-files/music/::1700599879
+::res://assets/textures/extras/cyberpunk-street-files/music/::1702088656
 cyberpunk-street.mp3::AudioStreamMP3::3433670222333804951::1700599879::1700599879::1::::<><>::
 cyberpunk-street.ogg::AudioStreamOggVorbis::4472335676775166442::1700599879::1700599879::1::::<><>::
 cyberpunk-street.wav::AudioStreamWAV::7581721433754845256::1700599879::1700599879::1::::<><>::
-::res://assets/textures/extras/cyberpunk-street-files/Version 1/::1700599879
-::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/::1700599879
+::res://assets/textures/extras/cyberpunk-street-files/Version 1/::1702088656
+::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/::1702088656
 cyberpunk-street.png::CompressedTexture2D::2477354687564537334::1700599879::1700599879::1::::<><>::
-::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/layers/::1700599879
+::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/layers/::1702088656
 back-buildings.png::CompressedTexture2D::8562632462731725254::1700599879::1700599879::1::::<><>::
 far-buildings.png::CompressedTexture2D::6965955102656546125::1700599879::1700599879::1::::<><>::
 foreground.png::CompressedTexture2D::8431366767649908356::1700599879::1700599879::1::::<><>::
-::res://assets/textures/extras/cyberpunk-street-files/Version 1/PSD/::1700599879
-::res://assets/textures/extras/cyberpunk-street-files/Version 2/::1700599879
-::res://assets/textures/extras/cyberpunk-street-files/Version 2/Layers/::1700599879
+::res://assets/textures/extras/cyberpunk-street-files/Version 1/PSD/::1702088656
+::res://assets/textures/extras/cyberpunk-street-files/Version 2/::1702088656
+::res://assets/textures/extras/cyberpunk-street-files/Version 2/Layers/::1702088656
 back.png::CompressedTexture2D::8421512103313949467::1700599879::1700599879::1::::<><>::
 foreground-empty.png::CompressedTexture2D::1545982270437806222::1700599879::1700599879::1::::<><>::
 foreground.png::CompressedTexture2D::7246479565739691033::1700599879::1700599879::1::::<><>::
 middle.png::CompressedTexture2D::126983371056052951::1700599879::1700599879::1::::<><>::
-::res://assets/textures/extras/cyberpunk-street-files/Version 2/Previews/::1700599879
+::res://assets/textures/extras/cyberpunk-street-files/Version 2/Previews/::1702088656
 city.png::CompressedTexture2D::5004326221744473253::1700599879::1700599879::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/::1701484741
+::res://assets/textures/fire_fx_v1.0/::1702088656
 guide.png::CompressedTexture2D::6040134667286843453::1701484741::1701484741::1::::<><>::
 readme.TXT::TextFile::-1::1701484741::0::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/blue/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/blue/end/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/blue/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/blue/end/::1702088656
 burning_end_1.png::CompressedTexture2D::2967366142586272925::1701484741::1701484741::1::::<><>::
 burning_end_2.png::CompressedTexture2D::5468484701129929721::1701484741::1701484741::1::::<><>::
 burning_end_3.png::CompressedTexture2D::11840251583100696::1701484741::1701484741::1::::<><>::
 burning_end_4.png::CompressedTexture2D::2858260640232510066::1701484741::1701484741::1::::<><>::
 burning_end_5.png::CompressedTexture2D::2727064306291190370::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/blue/loops/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/blue/loops/::1702088656
 burning_loop_1.png::CompressedTexture2D::947384256535815413::1701484741::1701484741::1::::<><>::
 burning_loop_2.png::CompressedTexture2D::3985707952201385397::1701484741::1701484741::1::::<><>::
 burning_loop_3.png::CompressedTexture2D::453525831821461011::1701484741::1701484741::1::::<><>::
 burning_loop_4.png::CompressedTexture2D::4558868472564870724::1701484741::1701484741::1::::<><>::
 burning_loop_5.png::CompressedTexture2D::45851711389037026::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/blue/start/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/blue/start/::1702088656
 burning_start_1.png::CompressedTexture2D::7497912870216447713::1701484741::1701484741::1::::<><>::
 burning_start_2.png::CompressedTexture2D::3086834934874409641::1701484741::1701484741::1::::<><>::
 burning_start_3.png::CompressedTexture2D::2842279766746722707::1701484741::1701484741::1::::<><>::
 burning_start_4.png::CompressedTexture2D::726215753275883756::1701484741::1701484741::1::::<><>::
 burning_start_5.png::CompressedTexture2D::2110944384725017473::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/green/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/green/end/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/green/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/green/end/::1702088656
 burning_end_1.png::CompressedTexture2D::4354469880515735890::1701484741::1701484741::1::::<><>::
 burning_end_2.png::CompressedTexture2D::6486346707057400090::1701484741::1701484741::1::::<><>::
 burning_end_3.png::CompressedTexture2D::964213201684353326::1701484741::1701484741::1::::<><>::
 burning_end_4.png::CompressedTexture2D::947668393155063289::1701484741::1701484741::1::::<><>::
 burning_end_5.png::CompressedTexture2D::6914588314193405738::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/green/loops/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/green/loops/::1702088656
 burning_loop_1.png::CompressedTexture2D::2982821636873292097::1701484741::1701484741::1::::<><>::
 burning_loop_2.png::CompressedTexture2D::8874917532107517958::1701484741::1701484741::1::::<><>::
 burning_loop_3.png::CompressedTexture2D::6605815767821162415::1701484741::1701484741::1::::<><>::
 burning_loop_4.png::CompressedTexture2D::5633343493182126926::1701484741::1701484741::1::::<><>::
 burning_loop_5.png::CompressedTexture2D::5292831572809796633::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/green/start/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/green/start/::1702088656
 burning_start_1.png::CompressedTexture2D::4841832201503956997::1701484741::1701484741::1::::<><>::
 burning_start_2.png::CompressedTexture2D::252879892680585425::1701484741::1701484741::1::::<><>::
 burning_start_3.png::CompressedTexture2D::1129879399635258082::1701484741::1701484741::1::::<><>::
 burning_start_4.png::CompressedTexture2D::8077304784714916920::1701484741::1701484741::1::::<><>::
 burning_start_5.png::CompressedTexture2D::2690273079378334143::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/orange/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/orange/end/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/orange/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/orange/end/::1702088656
 burning_end_1.png::CompressedTexture2D::1966350352310506389::1701484741::1701484741::1::::<><>::
 burning_end_2.png::CompressedTexture2D::6903729462511206883::1701484741::1701484741::1::::<><>::
 burning_end_3.png::CompressedTexture2D::3563039700024737797::1701484741::1701484741::1::::<><>::
 burning_end_4.png::CompressedTexture2D::1675023202733475518::1701484741::1701484741::1::::<><>::
 burning_end_5.png::CompressedTexture2D::6144943316876381628::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/orange/loops/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/orange/loops/::1702088656
 burning_loop_1.png::CompressedTexture2D::6825163561553209170::1701484741::1701484741::1::::<><>::
 burning_loop_2.png::CompressedTexture2D::3121907299774266475::1701484741::1701484741::1::::<><>::
 burning_loop_3.png::CompressedTexture2D::2643525709089911830::1701484741::1701484741::1::::<><>::
 burning_loop_4.png::CompressedTexture2D::63942886602763781::1701484741::1701484741::1::::<><>::
 burning_loop_5.png::CompressedTexture2D::5834135296221678425::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/orange/start/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/orange/start/::1702088656
 burning_start_1.png::CompressedTexture2D::4811178459635026924::1701484741::1701484741::1::::<><>::
 burning_start_2.png::CompressedTexture2D::1516803345780533329::1701484741::1701484741::1::::<><>::
 burning_start_3.png::CompressedTexture2D::7568313487744377859::1701484741::1701484741::1::::<><>::
 burning_start_4.png::CompressedTexture2D::1236739743889722876::1701484741::1701484741::1::::<><>::
 burning_start_5.png::CompressedTexture2D::4620957414641196633::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/purple/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/purple/end/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/purple/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/purple/end/::1702088656
 burning_end_1.png::CompressedTexture2D::5607527689002399877::1701484741::1701484741::1::::<><>::
 burning_end_2.png::CompressedTexture2D::2172105044907167403::1701484741::1701484741::1::::<><>::
 burning_end_3.png::CompressedTexture2D::6891110139179188098::1701484741::1701484741::1::::<><>::
 burning_end_4.png::CompressedTexture2D::6482375819305820124::1701484741::1701484741::1::::<><>::
 burning_end_5.png::CompressedTexture2D::2301050788154008812::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/purple/loops/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/purple/loops/::1702088656
 burning_loop_1.png::CompressedTexture2D::4633035355174661646::1701484741::1701484741::1::::<><>::
 burning_loop_2.png::CompressedTexture2D::206989957888121365::1701484741::1701484741::1::::<><>::
 burning_loop_3.png::CompressedTexture2D::6383200553632066899::1701484741::1701484741::1::::<><>::
 burning_loop_4.png::CompressedTexture2D::6643788399171212259::1701484741::1701484741::1::::<><>::
 burning_loop_5.png::CompressedTexture2D::3899414701216993193::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/purple/start/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/purple/start/::1702088656
 burning_start_1.png::CompressedTexture2D::2796265466906914764::1701484741::1701484741::1::::<><>::
 burning_start_2.png::CompressedTexture2D::7273880877413986502::1701484741::1701484741::1::::<><>::
 burning_start_3.png::CompressedTexture2D::2665041371928085647::1701484741::1701484741::1::::<><>::
 burning_start_4.png::CompressedTexture2D::8930351994603382929::1701484741::1701484741::1::::<><>::
 burning_start_5.png::CompressedTexture2D::2332755650722137993::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/white/::1701484741
-::res://assets/textures/fire_fx_v1.0/png/white/end/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/white/::1702088656
+::res://assets/textures/fire_fx_v1.0/png/white/end/::1702088656
 burning_end_1.png::CompressedTexture2D::1937468549551317445::1701484741::1701484741::1::::<><>::
 burning_end_2.png::CompressedTexture2D::2407681201711001794::1701484741::1701484741::1::::<><>::
 burning_end_3.png::CompressedTexture2D::381941991496264296::1701484741::1701484741::1::::<><>::
 burning_end_4.png::CompressedTexture2D::4609882728740853410::1701484741::1701484741::1::::<><>::
 burning_end_5.png::CompressedTexture2D::7901281098892306487::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/white/loops/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/white/loops/::1702088656
 burning_loop_1.png::CompressedTexture2D::5364185589059787755::1701484741::1701484741::1::::<><>::
 burning_loop_2.png::CompressedTexture2D::9082043140522252226::1701484741::1701484741::1::::<><>::
 burning_loop_3.png::CompressedTexture2D::6695714525605193941::1701484741::1701484741::1::::<><>::
 burning_loop_4.png::CompressedTexture2D::2954477444050676310::1701484741::1701484741::1::::<><>::
 burning_loop_5.png::CompressedTexture2D::7600504177210716584::1701484741::1701484741::1::::<><>::
-::res://assets/textures/fire_fx_v1.0/png/white/start/::1701484741
+::res://assets/textures/fire_fx_v1.0/png/white/start/::1702088656
 burning_start_1.png::CompressedTexture2D::4130403673457679590::1701484741::1701484741::1::::<><>::
 burning_start_2.png::CompressedTexture2D::130028070439290091::1701484741::1701484741::1::::<><>::
 burning_start_3.png::CompressedTexture2D::6075540871142211780::1701484741::1701484741::1::::<><>::
 burning_start_4.png::CompressedTexture2D::7163280957393098856::1701484741::1701484741::1::::<><>::
 burning_start_5.png::CompressedTexture2D::1938928713723990404::1701484741::1701484741::1::::<><>::
-::res://assets/textures/Hearts/::1700599879
+::res://assets/textures/Hearts/::1702088656
 all_swords.png::CompressedTexture2D::1102039372202346354::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Hearts/Green/::1700599879
+::res://assets/textures/Hearts/Green/::1702088656
 Heart_green.png::CompressedTexture2D::2589176357668205283::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Hearts/Red/::1700599879
+::res://assets/textures/Hearts/Red/::1702088656
 Heart_red.png::CompressedTexture2D::6256777456808578698::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Robot_Boss/::1700599879
+::res://assets/textures/Robot_Boss/::1702088656
 Chest Sprites.png::CompressedTexture2D::1140816591169548740::1700599879::1700599879::1::::<><>::
 Death Beam Spawn Sprite Sheet.png::CompressedTexture2D::7258889267235262067::1700599879::1700599879::1::::<><>::
 Death Beam Sprite Sheet.png::CompressedTexture2D::8057415396599100650::1700599879::1700599879::1::::<><>::
@@ -853,10 +864,10 @@ Military Incursion Bot Sprite Sheet.png::CompressedTexture2D::628728207492414464
 Right Arm Sprites.png::CompressedTexture2D::1305969899893469718::1700599879::1700599879::1::::<><>::
 Right Leg Sprites.png::CompressedTexture2D::2843504491057372263::1700599879::1700599879::1::::<><>::
 Robot Pieces.png::CompressedTexture2D::5599180562961364587::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sci_villians/::1700599879
+::res://assets/textures/Sci_villians/::1702088656
 Font.txt::TextFile::-1::1700599879::0::1::::<><>::
 License.txt::TextFile::-1::1700599879::0::1::::<><>::
-::res://assets/textures/Sci_villians/1/::1700599879
+::res://assets/textures/Sci_villians/1/::1702088656
 Attack1.png::CompressedTexture2D::5968538398698111853::1700599879::1700599879::1::::<><>::
 Attack2.png::CompressedTexture2D::8220481966708468583::1700599879::1700599879::1::::<><>::
 Attack3_1.png::CompressedTexture2D::4647943818528473312::1700599879::1700599879::1::::<><>::
@@ -870,7 +881,7 @@ Hurt.png::CompressedTexture2D::4439173530108766193::1700599879::1700599879::1:::
 Idle.png::CompressedTexture2D::2910388988234241543::1700599879::1700599879::1::::<><>::
 Special.png::CompressedTexture2D::7019499245778881475::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::2099676998132953881::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sci_villians/2/::1700599879
+::res://assets/textures/Sci_villians/2/::1702088656
 Attack1.png::CompressedTexture2D::8527680482481595090::1700599879::1700599879::1::::<><>::
 Attack2.png::CompressedTexture2D::6748404829643025320::1700599879::1700599879::1::::<><>::
 Attack3.png::CompressedTexture2D::5909540353093455101::1700599879::1700599879::1::::<><>::
@@ -881,7 +892,7 @@ Idle.png::CompressedTexture2D::8449877945987137101::1700599879::1700599879::1:::
 Projectile.png::CompressedTexture2D::3370803637942355900::1700599879::1700599879::1::::<><>::
 Special.png::CompressedTexture2D::6916947781622471025::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::8643131100939982804::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sci_villians/3/::1700599879
+::res://assets/textures/Sci_villians/3/::1702088656
 Attack1.png::CompressedTexture2D::463943601238017264::1700599879::1700599879::1::::<><>::
 Attack2.png::CompressedTexture2D::255260107034377949::1700599879::1700599879::1::::<><>::
 Attack3.png::CompressedTexture2D::4462195517038889736::1700599879::1700599879::1::::<><>::
@@ -893,59 +904,63 @@ Idle.png::CompressedTexture2D::9204229787819151824::1700599879::1700599879::1:::
 Projectile.png::CompressedTexture2D::2855175847193382749::1700599879::1700599879::1::::<><>::
 Special.png::CompressedTexture2D::6294687765112179592::1700599879::1700599879::1::::<><>::
 Walk.png::CompressedTexture2D::1111160447398152125::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sidescroller Shooter - Central City/::1700599879
-::res://assets/textures/Sidescroller Shooter - Central City/Assets/::1700599879
+::res://assets/textures/Sidescroller Shooter - Central City/::1702088656
+::res://assets/textures/Sidescroller Shooter - Central City/Assets/::1702088656
 Buildings.png::CompressedTexture2D::2686587446258458478::1700599879::1700599879::1::::<><>::
 Props-01.png::CompressedTexture2D::2558528658401044798::1700599879::1700599879::1::::<><>::
 Tiles.png::CompressedTexture2D::5469033004461809430::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sidescroller Shooter - Central City/Background/::1700599879
+::res://assets/textures/Sidescroller Shooter - Central City/Background/::1702088656
 Background Props.png::CompressedTexture2D::70102630587414660::1700599879::1700599879::1::::<><>::
 Base Color.png::CompressedTexture2D::1608997093218888655::1700599879::1700599879::1::::<><>::
 Frontal Fog.png::CompressedTexture2D::1947175443155368327::1700599879::1700599879::1::::<><>::
 Mid Fog.png::CompressedTexture2D::5676919927155394485::1700599879::1700599879::1::::<><>::
-::res://assets/textures/Sidescroller Shooter - Central City/Social/::1700599879
+::res://assets/textures/Sidescroller Shooter - Central City/Social/::1702088656
 Background Props.png::CompressedTexture2D::6947030809924466877::1700599879::1700599879::1::::<><>::
 Buildings.png::CompressedTexture2D::4746085540786722685::1700599879::1700599879::1::::<><>::
 MockUp-01.png::CompressedTexture2D::4794768375388814269::1700599879::1700599879::1::::<><>::
 Props-01.png::CompressedTexture2D::518147968163864882::1700599879::1700599879::1::::<><>::
 Tiles.png::CompressedTexture2D::292903941049577334::1700599879::1700599879::1::::<><>::
-::res://resources/::1700599879
-theme.tres::Theme::3043238223711983482::1700599879::0::1::::<><>::uid://bpxfl8g1weinp::::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/thick/retro-pixel-thick.otf<>uid://vvc2y1oet2xu::::res://assets/fonts/Kaph_fonts/OpenType (.otf)/Kaph-Regular.otf
-::res://scenes/::1701544281
+::res://resources/::1702280381
+theme.tres::Theme::3043238223711983482::1702280381::0::1::::<><>::uid://bpxfl8g1weinp::::res://assets/fonts/retro-pixel-font-otf-v2023.07.12/thick/retro-pixel-thick.otf<>uid://vvc2y1oet2xu::::res://assets/fonts/Kaph_fonts/OpenType (.otf)/Kaph-Regular.otf
+::res://scenes/::1702281045
 Area2D.gd::GDScript::-1::1700599879::0::1::::<>Area2D<>::
-bally.gd::GDScript::-1::1701044096::0::1::::<>CharacterBody2D<>::
-bally.tscn::PackedScene::2840508122983781525::1701045412::0::1::::<><>::res://scenes/bally.gd<>uid://cb85iplslcuom::::res://scenes/cheese.tscn<>uid://corj5dtbn0c5o::::res://assets/textures/Cyberpunk_protas/3 Hands/2 Punk/3.png<>uid://bfboxfqnwlapo::::res://scenes/ui/GAMEOVER/game_over.tscn<>uid://bjrxagomdq4u8::::res://assets/textures/Cyberpunk_protas/2 Guns/1_1.png<>uid://l0pjtvpydu10::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Idle1.png<>uid://bfax0quivj8v::::res://scenes/ui/pausa.tscn<>uid://d2rqjwudqnu1d::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Run1.png<>uid://stvn8nkebhjb::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_death.png<>uid://dwdx0orbdm6i3::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_hurt.png<>uid://cve3hfo6ad4a5::::res://assets/textures/Hearts/Red/Heart_red.png<>uid://px3oserdk2ok::::res://assets/textures/Hearts/all_swords.png
-camara.gd::GDScript::-1::1700599879::0::1::::<>Camera2D<>::
-camara.tscn::PackedScene::4623233486705723843::1701544281::0::1::::<><>::res://scenes/camara.gd<>res://scenes/Area2D.gd<>uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://dwklxs6ig6ojp::::res://scenes/fuego.tscn
-cheese.gd::GDScript::-1::1700599879::0::1::::<>Area2D<>::
-cheese.tscn::PackedScene::4912991278718180472::1701044358::0::1::::<><>::res://scenes/cheese.gd<>uid://bna5hxymol7nw::::res://assets/textures/Cyberpunk_protas/5 Bullets/3.png
+bally.gd::GDScript::-1::1702277558::0::1::::<>CharacterBody2D<>::
+bally.tscn::PackedScene::2840508122983781525::1702281045::0::1::::<><>::res://scenes/bally.gd<>uid://cb85iplslcuom::::res://scenes/cheese.tscn<>uid://corj5dtbn0c5o::::res://assets/textures/Cyberpunk_protas/3 Hands/2 Punk/3.png<>uid://bfboxfqnwlapo::::res://scenes/ui/GAMEOVER/game_over.tscn<>uid://bjrxagomdq4u8::::res://assets/textures/Cyberpunk_protas/2 Guns/1_1.png<>uid://l0pjtvpydu10::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Idle1.png<>uid://bfax0quivj8v::::res://scenes/ui/pausa.tscn<>uid://d2rqjwudqnu1d::::res://assets/textures/Cyberpunk_protas/1 Characters/2 Punk/Run1.png<>uid://stvn8nkebhjb::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_death.png<>uid://dwdx0orbdm6i3::::res://assets/textures/Cyberpunk_protas_v2/2 Punk/Punk_hurt.png<>uid://cve3hfo6ad4a5::::res://assets/textures/Hearts/Red/Heart_red.png<>uid://px3oserdk2ok::::res://assets/textures/Hearts/all_swords.png
+camara.gd::GDScript::-1::1702144090::0::1::::<>Camera2D<>::
+camara.tscn::PackedScene::4623233486705723843::1702281045::0::1::::<><>::res://scenes/camara.gd<>res://scenes/Area2D.gd<>uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://dwklxs6ig6ojp::::res://scenes/fuego.tscn<>uid://dkqnefw3lalg7::::res://scenes/daño_fuego.tscn<>uid://ck22527bkuxa5::::res://assets/textures/DystopianCity/fondo.png<>uid://c6imi62f0g1cb::::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/layers/far-buildings.png<>uid://dt82knlcldbsw::::res://assets/textures/extras/cyberpunk-street-files/Version 1/PNG/layers/back-buildings.png<>uid://bejnx5l5dmoxy::::res://assets/textures/Sidescroller Shooter - Central City/Assets/Buildings.png
+cheese.gd::GDScript::-1::1702256084::0::1::::<>Area2D<>::
+cheese.tscn::PackedScene::4912991278718180472::1702257738::0::1::::<><>::res://scenes/cheese.gd<>uid://bna5hxymol7nw::::res://assets/textures/Cyberpunk_protas/5 Bullets/3.png
+daño_fuego.tscn::PackedScene::7894977293495519432::1702257738::0::1::::<><>::res://daño_fuego.gd
 floor.gd::GDScript::-1::1700599879::0::1::::<>StaticBody2D<>::
 floor.tscn::PackedScene::3589272145069023303::1701544281::0::1::::<><>::res://scenes/floor.gd<>uid://d0magksdpggwp::::res://icon.svg
+fondo.tscn::PackedScene::763088582709506325::1702148122::0::1::::<><>::uid://ck22527bkuxa5::::res://assets/textures/DystopianCity/fondo.png
 fuego.gd::GDScript::-1::1701484741::0::1::::<>Node2D<>::
-fuego.tscn::PackedScene::8724770342518832913::1701544281::0::1::::<><>::res://scenes/fuego.gd<>uid://c4ifpgmx2irfu::::res://assets/textures/fire_fx_v1.0/png/orange/loops/burning_loop_1.png
+fuego.tscn::PackedScene::8724770342518832913::1702257738::0::1::::<><>::uid://c4ifpgmx2irfu::::res://assets/textures/fire_fx_v1.0/png/orange/loops/burning_loop_1.png
 level_manager.gd::GDScript::-1::1700599879::0::1::::<>Node<>::
-level_manager.tscn::PackedScene::8228786487189423886::1701484741::0::1::::<><>::res://scenes/level_manager.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn<>uid://08yek3qwd2de::::res://scenes/levels/level_1.tscn<>uid://dy3uyefli1flj::::res://scenes/levels/level_2.tscn
+level_manager.tscn::PackedScene::8228786487189423886::1702281030::0::1::::<><>::res://scenes/level_manager.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn<>uid://08yek3qwd2de::::res://scenes/levels/level_1.tscn<>uid://sp5jpdqi3c1t::::res://scenes/ui/credits.tscn<>uid://ldw71m8di542::::res://scenes/ui/how_to_play.tscn<>uid://dy3uyefli1flj::::res://scenes/levels/level_2.tscn
 main.tscn::PackedScene::2633391073793514039::1701484741::0::1::::<><>::uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://bcpmuf0cbp0co::::res://assets/textures/Sidescroller Shooter - Central City/Assets/Props-01.png<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>res://scenes/camara.gd<>uid://d36tkgw83qjl8::::res://scenes/enemies/enemy_spawn.tscn
-::res://scenes/Bosses/::1701657060
-boss_1.gd::GDScript::-1::1701484741::0::1::::<>CharacterBody2D<>::
-boss_1.tscn::PackedScene::6830616639830073355::1701657060::0::1::::<><>::res://scenes/Bosses/boss_1.gd<>uid://chlu2nne8uy4::::res://scenes/ui/WIN/win.tscn<>uid://blny4jy1v75wh::::res://assets/textures/Bosses1/1/Walk.png<>uid://b6h8v6agpy1o8::::res://assets/textures/Efectos/1 Smoke/3.png<>uid://bdgx4dgb81og2::::res://assets/textures/Bosses1/1/Out.png<>uid://chwjej2hm4jst::::res://assets/textures/Bosses1/1/Idle3.png<>uid://dp3b8asjyvdgw::::res://assets/textures/Bosses1/1/Death2.png<>uid://bdtxciu1oi2e::::res://assets/textures/Bosses1/1/Hurt.png<>uid://djouf023fbc73::::res://assets/textures/Bosses1/1/Hurt2.png<>uid://ulcbudpbek1o::::res://assets/textures/Bosses1/1/Walk2.png<>uid://k5gocj1lsyux::::res://assets/textures/Bosses1/1/Attack.png
-boss_1_spawn.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-boss_1_spawn.tscn::PackedScene::7040013807903616909::1700599879::0::1::::<><>::res://scenes/Bosses/boss_1_spawn.gd<>uid://c4k2i1mcgthfn::::res://scenes/Bosses/boss_1.tscn
+::res://scenes/Bosses/::1702263392
+boss_1.gd::GDScript::-1::1702262602::0::1::::<>CharacterBody2D<>::
+boss_1.tscn::PackedScene::6830616639830073355::1702263392::0::1::::<><>::res://scenes/Bosses/boss_1.gd<>uid://chlu2nne8uy4::::res://scenes/ui/WIN/win.tscn<>uid://blny4jy1v75wh::::res://assets/textures/Bosses1/1/Walk.png<>uid://b6h8v6agpy1o8::::res://assets/textures/Efectos/1 Smoke/3.png<>uid://bdgx4dgb81og2::::res://assets/textures/Bosses1/1/Out.png<>uid://chwjej2hm4jst::::res://assets/textures/Bosses1/1/Idle3.png<>uid://dp3b8asjyvdgw::::res://assets/textures/Bosses1/1/Death2.png<>uid://bdtxciu1oi2e::::res://assets/textures/Bosses1/1/Hurt.png<>uid://djouf023fbc73::::res://assets/textures/Bosses1/1/Hurt2.png<>uid://ulcbudpbek1o::::res://assets/textures/Bosses1/1/Walk2.png<>uid://k5gocj1lsyux::::res://assets/textures/Bosses1/1/Attack.png
+boss_1_spawn.gd::GDScript::-1::1702262737::0::1::::<>Node2D<>::
+boss_1_spawn.tscn::PackedScene::7040013807903616909::1702257314::0::1::::<><>::res://scenes/Bosses/boss_1_spawn.gd<>uid://c4k2i1mcgthfn::::res://scenes/Bosses/boss_1.tscn
 boss_2.tscn::PackedScene::3867585125104967606::1701545321::0::1::::<><>::uid://bgwnuvoluccer::::res://assets/textures/Bosses1/2/Walk.png
 cohete.gd::GDScript::-1::1701545937::0::1::::<>Area2D<>::
 cohete.tscn::PackedScene::5102653010528665901::1701655936::0::1::::<><>::uid://ri6ccso565p6::::res://assets/textures/Bosses1/2/Bullet.png
 rocket.gd::GDScript::-1::1701656935::0::1::::<>Sprite2D<>::
-::res://scenes/Bosses/boss_final/::1701659495
+::res://scenes/Bosses/boss_final/::1702281045
 Bala1.gd::GDScript::-1::1701484741::0::1::::<>Area2D<>::
 Bala2.gd::GDScript::-1::1701484741::0::1::::<>Area2D<>::
 Bala3.gd::GDScript::-1::1701484741::0::1::::<>Area2D<>::
 Bala4.gd::GDScript::-1::1701484741::0::1::::<>Area2D<>::
 Bala5.gd::GDScript::-1::1701484741::0::1::::<>Area2D<>::
-balas_robot.gd::GDScript::-1::1701657122::0::1::::<>Node2D<>::
-balas_robot.tscn::PackedScene::4347902914235144620::1701659336::0::1::::<><>::res://scenes/Bosses/boss_final/Bala1.gd<>res://scenes/Bosses/boss_final/balas_robot.gd<>uid://l8d1rj5cdwec::::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/9.png<>res://scenes/Bosses/boss_final/Bala2.gd<>res://scenes/Bosses/boss_final/Bala3.gd<>res://scenes/Bosses/boss_final/Bala4.gd<>res://scenes/Bosses/boss_final/Bala5.gd
-boss_final_spawn2.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-boss_final_spawn.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-boss_final_spawn.tscn::PackedScene::1022602811824393860::1701484741::0::1::::<><>::res://scenes/Bosses/boss_final/boss_final_spawn.gd
+balas_robot.gd::GDScript::-1::1702088397::0::1::::<>Node2D<>::
+balas_robot.tscn::PackedScene::4347902914235144620::1702084397::0::1::::<><>::res://scenes/Bosses/boss_final/Bala1.gd<>res://scenes/Bosses/boss_final/balas_robot.gd<>uid://l8d1rj5cdwec::::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/9.png<>res://scenes/Bosses/boss_final/Bala2.gd<>res://scenes/Bosses/boss_final/Bala3.gd<>res://scenes/Bosses/boss_final/Bala4.gd<>res://scenes/Bosses/boss_final/Bala5.gd
+balas_robot_v2.gd::GDScript::-1::1702091773::0::1::::<>Node2D<>::
+balas_robot_v2.tscn::PackedScene::3335432937131459840::1702095898::0::1::::<><>::res://scenes/Bosses/boss_final/balas_robot_v2.gd<>res://scenes/Bosses/boss_final/Bala1.gd<>uid://b5degk617pvwv::::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/3.png
+boss_final_spawn2.gd::GDScript::-1::1702260326::0::1::::<>Node2D<>::
+boss_final_spawn.gd::GDScript::-1::1702253547::0::1::::<>Node2D<>::
+boss_final_spawn.tscn::PackedScene::1022602811824393860::1702257738::0::1::::<><>::res://scenes/Bosses/boss_final/boss_final_spawn.gd<>uid://d0magksdpggwp::::res://icon.svg
 brazod.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
 brazod.tscn::PackedScene::2095600698621612009::1700599879::0::1::::<><>::res://scenes/Bosses/boss_final/brazod.gd<>uid://bswkxruyh0mcn::::res://scenes/Bosses/boss_final/brazo_robot.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
 brazoi.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
@@ -963,37 +978,41 @@ piernaI.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
 piernaI.tscn::PackedScene::9052137949744314387::1701044358::0::1::::<><>::res://scenes/Bosses/boss_final/piernaI.gd<>uid://bk32qhxxx1sjr::::res://scenes/Bosses/boss_final/pierna_robot_v2.tscn<>uid://cdcff4riqxqve::::res://scenes/Bosses/boss_final/Dron.tscn
 pierna_robot.tscn::PackedScene::8697512718732756998::1700599879::0::1::::<><>::uid://bgrodrxag4dgh::::res://assets/textures/Robot_Boss/Right Leg Sprites.png
 pierna_robot_v2.tscn::PackedScene::3147780032965017579::1700599879::0::1::::<><>::uid://dun5a31mpw3xo::::res://assets/textures/Robot_Boss/Left Leg Sprites.png
-robot.gd::GDScript::-1::1701659336::0::1::::<>CharacterBody2D<>::
-robot.tscn::PackedScene::6019697605653212590::1701659495::0::1::::<><>::res://scenes/Bosses/boss_final/robot.gd<>uid://b27flctyaa58s::::res://scenes/Bosses/boss_final/balas_robot.tscn<>uid://c5spelc6dfsla::::res://assets/textures/Robot_Boss/Left Arm Sprites.png<>uid://chlu2nne8uy4::::res://scenes/ui/WIN/win.tscn<>uid://qivc2p1gubng::::res://assets/textures/Robot_Boss/Chest Sprites.png<>uid://dun5a31mpw3xo::::res://assets/textures/Robot_Boss/Left Leg Sprites.png<>uid://suvesi8tmgck::::res://assets/textures/Robot_Boss/Right Arm Sprites.png<>uid://bgrodrxag4dgh::::res://assets/textures/Robot_Boss/Right Leg Sprites.png<>uid://cvtuu8qcaki3y::::res://assets/textures/Robot_Boss/Military Incursion Bot Sprite Sheet.png<>uid://dboi30vf3jwyd::::res://assets/textures/Robot_Boss/Death Beam Spawn Sprite Sheet.png<>uid://dm2cppi53nivy::::res://assets/textures/Robot_Boss/Death Beam Sprite Sheet.png
+robot.gd::GDScript::-1::1702277828::0::1::::<>CharacterBody2D<>::
+robot.tscn::PackedScene::6019697605653212590::1702281045::0::1::::<><>::res://scenes/Bosses/boss_final/robot.gd<>uid://b27flctyaa58s::::res://scenes/Bosses/boss_final/balas_robot.tscn<>uid://c5spelc6dfsla::::res://assets/textures/Robot_Boss/Left Arm Sprites.png<>uid://chlu2nne8uy4::::res://scenes/ui/WIN/win.tscn<>uid://qivc2p1gubng::::res://assets/textures/Robot_Boss/Chest Sprites.png<>uid://bnrydfxvlshjs::::res://scenes/Bosses/boss_final/balas_robot_v2.tscn<>uid://dun5a31mpw3xo::::res://assets/textures/Robot_Boss/Left Leg Sprites.png<>uid://suvesi8tmgck::::res://assets/textures/Robot_Boss/Right Arm Sprites.png<>uid://bgrodrxag4dgh::::res://assets/textures/Robot_Boss/Right Leg Sprites.png<>uid://cvtuu8qcaki3y::::res://assets/textures/Robot_Boss/Military Incursion Bot Sprite Sheet.png<>uid://dboi30vf3jwyd::::res://assets/textures/Robot_Boss/Death Beam Spawn Sprite Sheet.png<>uid://dm2cppi53nivy::::res://assets/textures/Robot_Boss/Death Beam Sprite Sheet.png
 robot_animation.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-robot_animation.tscn::PackedScene::3945514860580091336::1701044358::0::1::::<><>::res://scenes/Bosses/boss_final/robot_animation.gd<>uid://dk4ypsjv4iskc::::res://scenes/Bosses/boss_final/pecho.tscn<>uid://d176nii3yf5wh::::res://scenes/Bosses/boss_final/piernaI.tscn<>uid://y6cctdnvdvak::::res://scenes/Bosses/boss_final/piernaD.tscn<>uid://da6h3xes8fpts::::res://scenes/Bosses/boss_final/brazoi.tscn<>uid://44eicmhtvo8x::::res://scenes/Bosses/boss_final/brazod.tscn
+robot_animation.tscn::PackedScene::3945514860580091336::1702277829::0::1::::<><>::res://scenes/Bosses/boss_final/robot_animation.gd<>uid://dk4ypsjv4iskc::::res://scenes/Bosses/boss_final/pecho.tscn<>uid://d176nii3yf5wh::::res://scenes/Bosses/boss_final/piernaI.tscn<>uid://y6cctdnvdvak::::res://scenes/Bosses/boss_final/piernaD.tscn<>uid://da6h3xes8fpts::::res://scenes/Bosses/boss_final/brazoi.tscn<>uid://44eicmhtvo8x::::res://scenes/Bosses/boss_final/brazod.tscn
 test.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-::res://scenes/enemies/::1701655972
-bala.tscn::PackedScene::278353493240173580::1701655972::0::1::::<><>::res://Bala.gd<>uid://j5p6bj1mm061::::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/4_1.png
-enemy.gd::GDScript::-1::1700599879::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::4416673244119599647::1701544281::0::1::::<><>::res://scenes/enemies/enemy.gd<>uid://dt5wooxye6otl::::res://assets/textures/Cyberpunk_villians/1/Walk.png<>uid://bsipe2prdphum::::res://assets/textures/Cyberpunk_villians/1/Attack.png<>uid://c0axxpsfvhty8::::res://assets/textures/Cyberpunk_villians/1/Death.png<>uid://b25uyjedsfsir::::res://assets/textures/Cyberpunk_villians/1/Hurt.png
-enemy_2.gd::GDScript::-1::1701484741::0::1::::<>CharacterBody2D<>::
-enemy_2.tscn::PackedScene::6427972140198206483::1701544281::0::1::::<><>::res://scenes/enemies/enemy_2.gd<>uid://b3umyg2wsyb2b::::res://assets/textures/Cyberpunk_villians/3/Walk.png<>uid://bdyq664la3ttt::::res://assets/textures/Cyberpunk_villians/3/Death.png<>uid://cdonxxn0i68lp::::res://assets/textures/Cyberpunk_villians/3/Attack.png<>uid://djfhipppccmq8::::res://assets/textures/Cyberpunk_villians/3/Hurt2.png
-enemy_range.gd::GDScript::-1::1701484741::0::1::::<>CharacterBody2D<>::
-enemy_range.tscn::PackedScene::3169907001488960448::1701655972::0::1::::<><>::uid://q5pqsrylo0l8::::res://assets/textures/Cyberpunk_villians/2/Walk.png<>res://scenes/enemies/enemy_range.gd<>uid://chqwlmi3xwg02::::res://assets/textures/Cyberpunk_villians/2/Attack.png<>uid://d73paho5h7do::::res://scenes/enemies/bala.tscn<>uid://c0npqunnf64q3::::res://assets/textures/Cyberpunk_villians/2/Death.png<>uid://bmtxnmpw2uvla::::res://assets/textures/Cyberpunk_villians/2/Hurt.png
-enemy_spawn.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-enemy_spawn.tscn::PackedScene::9189717214784898843::1700599879::0::1::::<><>::res://scenes/enemies/enemy_spawn.gd<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://cxt0055cf4jhj::::res://scenes/enemies/enemy_2.tscn
-::res://scenes/levels/::1701659336
-level_1.tscn::PackedScene::1824310477081337422::1701659335::0::1::::<><>::uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://d36tkgw83qjl8::::res://scenes/enemies/enemy_spawn.tscn<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>uid://c7kh87xc7fpi0::::res://scenes/Bosses/boss_1_spawn.tscn
-level_2.gd::GDScript::-1::1700599879::0::1::::<>Node2D<>::
-level_2.tscn::PackedScene::8902854292743731971::1701659336::0::1::::<><>::res://scenes/levels/level_2.gd<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://otmebprgd3uu::::res://scenes/Bosses/boss_final/boss_final_spawn.tscn<>uid://bwhib2vf258u3::::res://scenes/Bosses/boss_final/robot_animation.tscn<>res://scenes/Bosses/boss_final/boss_final_spawn2.gd<>uid://cr08smlfm3roo::::res://scenes/Bosses/boss_final/robot.tscn<>uid://blfr51nnysw1e::::res://scenes/enemies/enemy_range.tscn
-level_3.tscn::PackedScene::3210713602883652657::1701044459::0::1::::<><>::uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn
-::res://scenes/ui/::1700599879
-main_menu.gd::GDScript::-1::1700599879::0::1::::<>MarginContainer<>::
-main_menu.tscn::PackedScene::3721083829361944982::1700599879::0::1::::<><>::res://scenes/ui/main_menu.gd
-pausa.gd::GDScript::-1::1700599879::0::1::::<>MarginContainer<>::
-pausa.tscn::PackedScene::80553144389004227::1700599879::0::1::::<><>::res://scenes/ui/pausa.gd
-::res://scenes/ui/GAMEOVER/::1700599879
-game_over.gd::GDScript::-1::1700599879::0::1::::<>CanvasLayer<>::
-game_over.tscn::PackedScene::2740320678749980004::1700599879::0::1::::<><>::res://scenes/ui/GAMEOVER/game_over.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn
-::res://scenes/ui/WIN/::1700599879
+::res://scenes/enemies/::1702281045
+bala.tscn::PackedScene::278353493240173580::1702194979::0::1::::<><>::res://Bala.gd<>uid://j5p6bj1mm061::::res://assets/textures/Cyberpunk_protas_with_guns/5 Bullets/4_1.png
+enemy.gd::GDScript::-1::1702279425::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::4416673244119599647::1702280521::0::1::::<><>::res://scenes/enemies/enemy.gd<>uid://dt5wooxye6otl::::res://assets/textures/Cyberpunk_villians/1/Walk.png<>uid://bsipe2prdphum::::res://assets/textures/Cyberpunk_villians/1/Attack.png<>uid://c0axxpsfvhty8::::res://assets/textures/Cyberpunk_villians/1/Death.png<>uid://b25uyjedsfsir::::res://assets/textures/Cyberpunk_villians/1/Hurt.png
+enemy_2.gd::GDScript::-1::1702194978::0::1::::<>CharacterBody2D<>::
+enemy_2.tscn::PackedScene::6427972140198206483::1702281045::0::1::::<><>::res://scenes/enemies/enemy_2.gd<>uid://b3umyg2wsyb2b::::res://assets/textures/Cyberpunk_villians/3/Walk.png<>uid://bdyq664la3ttt::::res://assets/textures/Cyberpunk_villians/3/Death.png<>uid://cdonxxn0i68lp::::res://assets/textures/Cyberpunk_villians/3/Attack.png<>uid://djfhipppccmq8::::res://assets/textures/Cyberpunk_villians/3/Hurt2.png
+enemy_range.gd::GDScript::-1::1702279449::0::1::::<>CharacterBody2D<>::
+enemy_range.tscn::PackedScene::3169907001488960448::1702280521::0::1::::<><>::uid://q5pqsrylo0l8::::res://assets/textures/Cyberpunk_villians/2/Walk.png<>res://scenes/enemies/enemy_range.gd<>uid://chqwlmi3xwg02::::res://assets/textures/Cyberpunk_villians/2/Attack.png<>uid://d73paho5h7do::::res://scenes/enemies/bala.tscn<>uid://c0npqunnf64q3::::res://assets/textures/Cyberpunk_villians/2/Death.png<>uid://bmtxnmpw2uvla::::res://assets/textures/Cyberpunk_villians/2/Hurt.png
+enemy_spawn.gd::GDScript::-1::1702257531::0::1::::<>Node2D<>::
+enemy_spawn.tscn::PackedScene::9189717214784898843::1702280521::0::1::::<><>::res://scenes/enemies/enemy_spawn.gd<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://cxt0055cf4jhj::::res://scenes/enemies/enemy_2.tscn
+::res://scenes/levels/::1702281045
+level_1.tscn::PackedScene::1824310477081337422::1702279338::0::1::::<><>::uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://d36tkgw83qjl8::::res://scenes/enemies/enemy_spawn.tscn<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>uid://c7kh87xc7fpi0::::res://scenes/Bosses/boss_1_spawn.tscn
+level_2.gd::GDScript::-1::1702278081::0::1::::<>Node2D<>::
+level_2.tscn::PackedScene::8902854292743731971::1702281045::0::1::::<><>::res://scenes/levels/level_2.gd<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn<>uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://b36p70jt4g0il::::res://scenes/enemies/enemy.tscn<>uid://otmebprgd3uu::::res://scenes/Bosses/boss_final/boss_final_spawn.tscn<>uid://bwhib2vf258u3::::res://scenes/Bosses/boss_final/robot_animation.tscn<>res://scenes/Bosses/boss_final/boss_final_spawn2.gd<>uid://cr08smlfm3roo::::res://scenes/Bosses/boss_final/robot.tscn<>uid://blfr51nnysw1e::::res://scenes/enemies/enemy_range.tscn<>uid://cxt0055cf4jhj::::res://scenes/enemies/enemy_2.tscn<>uid://d36tkgw83qjl8::::res://scenes/enemies/enemy_spawn.tscn
+level_3.tscn::PackedScene::3210713602883652657::1702114799::0::1::::<><>::uid://bgp70vmwf436p::::res://scenes/bally.tscn<>uid://brew11y4w8imh::::res://scenes/floor.tscn<>uid://b64r8k7nyaqc6::::res://scenes/camara.tscn
+::res://scenes/ui/::1702281045
+credits.gd::GDScript::-1::1702263261::0::1::::<>MarginContainer<>::
+credits.tscn::PackedScene::1296203226947044143::1702281030::0::1::::<><>::res://scenes/ui/credits.gd
+how_to_play.gd::GDScript::-1::1702263625::0::1::::<>MarginContainer<>::
+how_to_play.tscn::PackedScene::779664718174839293::1702281030::0::1::::<><>::res://scenes/ui/how_to_play.gd
+main_menu.gd::GDScript::-1::1702281045::0::1::::<>MarginContainer<>::
+main_menu.tscn::PackedScene::3721083829361944982::1702281030::0::1::::<><>::res://scenes/ui/main_menu.gd
+pausa.gd::GDScript::-1::1702280990::0::1::::<>MarginContainer<>::
+pausa.tscn::PackedScene::80553144389004227::1702281030::0::1::::<><>::res://scenes/ui/pausa.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn
+::res://scenes/ui/GAMEOVER/::1702281030
+game_over.gd::GDScript::-1::1702263677::0::1::::<>CanvasLayer<>::
+game_over.tscn::PackedScene::2740320678749980004::1702281030::0::1::::<><>::res://scenes/ui/GAMEOVER/game_over.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn
+::res://scenes/ui/WIN/::1702090188
 win.gd::GDScript::-1::1700599879::0::1::::<>CanvasLayer<>::
-win.tscn::PackedScene::155533373163250373::1700599879::0::1::::<><>::res://scenes/ui/GAMEOVER/game_over.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn
-::res://scripts/::1700599879
+win.tscn::PackedScene::155533373163250373::1702090188::0::1::::<><>::res://scenes/ui/GAMEOVER/game_over.gd<>uid://btarybkof8kvm::::res://scenes/ui/main_menu.tscn
+::res://scripts/::1702088657
 debug.gd::GDScript::-1::1700599879::0::1::::<>Node<>::
 game.gd::GDScript::-1::1700599879::0::1::::<>Node<>::
